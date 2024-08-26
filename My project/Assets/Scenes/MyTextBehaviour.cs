@@ -3,10 +3,10 @@ using UnityEngine;
 using UnityEngine.UI;
 
 [RequireComponent(typeof(Text))]
-public class TextLabelBehaviour : MonoBehaviour
+public class MyTextBehaviour : MonoBehaviour
 {
     public Text label;
-    public FloatData dataObj;
+    public MySo dataObj;
     
     private void Start()
     {
@@ -19,5 +19,4 @@ public class TextLabelBehaviour : MonoBehaviour
     {
         label.text = dataObj.value.ToString(CultureInfo.InvariantCulture);
     }
-}   
-
+}
