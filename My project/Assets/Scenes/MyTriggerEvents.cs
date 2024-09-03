@@ -3,9 +3,17 @@ using UnityEngine.Events;
 
 public class MyTriggerEvents : MonoBehaviour
 {
-    public UnityEvent triggerEvent;
-    public void OnTriggerEnter(Collider other)
-    { 
-        triggerEvent.Invoke();
+    public UnityEvent<Collider> triggerEvent;
+    private void OnTriggerEnter(Collider other)
+    {
+        
+        if (triggerEvent != null)
+        {
+            triggerEvent.Invoke(other);
+        }
+        else
+        {
+            Debug.LogWarning("triggerEvent is not assigned in " + gameObject.name);
+        }
     }
 }
