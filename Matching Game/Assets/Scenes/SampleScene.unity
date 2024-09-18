@@ -193,6 +193,18 @@ MonoBehaviour:
   repeatUntilFalseEvent:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 11400000, guid: 713ee5c2b7670f94480ee29e89e2b37e, type: 2}
+        m_TargetAssemblyTypeName: ColorIDDataList, Assembly-CSharp
+        m_MethodName: SetCurrentColorRandomly
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 11400000, guid: d388dcd5e2297b6429cb95b77246c675, type: 2}
         m_TargetAssemblyTypeName: Instancer, Assembly-CSharp
         m_MethodName: CreateInstanceListRandomly
@@ -207,7 +219,7 @@ MonoBehaviour:
         m_CallState: 2
   canRun: 0
   counterNum: {fileID: 11400000, guid: f3c583eb96724674d9f7b51cf322ba62, type: 2}
-  seconds: 1
+  seconds: 3
 --- !u!1 &69639051
 GameObject:
   m_ObjectHideFlags: 0
@@ -394,18 +406,6 @@ MonoBehaviour:
   repeatCountEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 669336819}
-        m_TargetAssemblyTypeName: TextLabelBehaviour, Assembly-CSharp
-        m_MethodName: UpdateLabel
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: f3c583eb96724674d9f7b51cf322ba62, type: 2}
-          m_ObjectArgumentAssemblyTypeName: IntData, Assembly-CSharp
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Off
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 69639052}
         m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
         m_MethodName: SetTrigger
@@ -415,7 +415,19 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Off
+          m_StringArgument: On
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 669336821}
+        m_TargetAssemblyTypeName: TextLabelBehaviour, Assembly-CSharp
+        m_MethodName: UpdateLabel
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: f3c583eb96724674d9f7b51cf322ba62, type: 2}
+          m_ObjectArgumentAssemblyTypeName: IntData, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: On
           m_BoolArgument: 0
         m_CallState: 2
   endCountEvent:
@@ -754,7 +766,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &367804452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -929,7 +941,7 @@ Transform:
   m_GameObject: {fileID: 367804451}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.46, y: 1.5, z: 0}
+  m_LocalPosition: {x: 13.68, y: -5.91, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -960,7 +972,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!54 &502533406
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1703,6 +1715,7 @@ GameObject:
   - component: {fileID: 669336818}
   - component: {fileID: 669336817}
   - component: {fileID: 669336819}
+  - component: {fileID: 669336821}
   m_Layer: 5
   m_Name: 321Go!
   m_TagString: Untagged
@@ -1717,7 +1730,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 669336815}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1726,7 +1739,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -22.9, y: 63.6}
+  m_AnchoredPosition: {x: -54.3, y: -10.4}
   m_SizeDelta: {x: 105.0616, y: 65.3999}
   m_Pivot: {x: 0.22228234, y: 0.57617027}
 --- !u!114 &669336817
@@ -1762,7 +1775,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Go!
+  m_Text: 
 --- !u!222 &669336818
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1772,6 +1785,21 @@ CanvasRenderer:
   m_GameObject: {fileID: 669336815}
   m_CullTransparentMesh: 1
 --- !u!114 &669336819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 669336815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42b68b2378e01384b87dce92146de9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startEvent:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &669336821
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2078,6 +2106,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Play
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 69639052}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: SetTrigger
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Start
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 11400000, guid: 64d7660389f524a42b8c05f659898688, type: 2}
@@ -2430,6 +2470,92 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1645558760}
   m_CullTransparentMesh: 1
+--- !u!1 &1788376420
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1788376422}
+  - component: {fileID: 1788376421}
+  m_Layer: 0
+  m_Name: InstancerPL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1788376421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788376420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1132033609a7c2a47a5a41c35982d30b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1788376421}
+        m_TargetAssemblyTypeName: CoroutineBehaviour, Assembly-CSharp
+        m_MethodName: StartRepeatUntilFalse
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  startCountEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  repeatCountEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  endCountEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  repeatUntilFalseEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: d595f68af80db6140ac5f543ad87d1ef, type: 2}
+        m_TargetAssemblyTypeName: Instancer, Assembly-CSharp
+        m_MethodName: CreateInstanceListRandomly
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: eec8e93119ee4924bb9b8ad47308fc8b, type: 2}
+          m_ObjectArgumentAssemblyTypeName: Vector3DataList, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  canRun: 0
+  counterNum: {fileID: 11400000, guid: f3c583eb96724674d9f7b51cf322ba62, type: 2}
+  seconds: 5
+--- !u!4 &1788376422
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788376420}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.05, y: -2.38, z: -3.9305677}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1889574016
 GameObject:
   m_ObjectHideFlags: 0
@@ -2560,7 +2686,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1904247045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2695,7 +2821,7 @@ Transform:
   m_GameObject: {fileID: 1904247044}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.52, y: 1.5, z: 0}
+  m_LocalPosition: {x: 11.91, y: -5.91, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2722,7 +2848,7 @@ MonoBehaviour:
         m_MethodName: ChangeRendererColor
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 2681d9b860dd31844863d7167f56361e, type: 2}
+          m_ObjectArgument: {fileID: 11400000, guid: a443bd9fe4abd714d9d8741f8e3b1f34, type: 2}
           m_ObjectArgumentAssemblyTypeName: ColorID, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -2753,3 +2879,4 @@ SceneRoots:
   - {fileID: 1002900705}
   - {fileID: 92629755}
   - {fileID: 15413249}
+  - {fileID: 1788376422}
