@@ -364,15 +364,14 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 669336816}
+  m_Children: []
   m_Father: {fileID: 1067538643}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 298, y: 167.5}
+  m_AnchoredPosition: {x: 279.73596, y: 104.67171}
   m_SizeDelta: {x: 596, y: 335}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0.46935564, y: 0.31245285}
 --- !u!1 &92629753
 GameObject:
   m_ObjectHideFlags: 0
@@ -447,7 +446,7 @@ MonoBehaviour:
           m_StringArgument: On
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 669336821}
+      - m_Target: {fileID: 669336819}
         m_TargetAssemblyTypeName: TextLabelBehaviour, Assembly-CSharp
         m_MethodName: UpdateLabel
         m_Mode: 2
@@ -1732,7 +1731,7 @@ GameObject:
   - component: {fileID: 669336818}
   - component: {fileID: 669336817}
   - component: {fileID: 669336819}
-  - component: {fileID: 669336821}
+  - component: {fileID: 669336820}
   m_Layer: 5
   m_Name: 321Go!
   m_TagString: Untagged
@@ -1752,11 +1751,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 69639056}
+  m_Father: {fileID: 1067538643}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -54.3, y: -10.4}
+  m_AnchoredPosition: {x: -38.8, y: -1.8999996}
   m_SizeDelta: {x: 105.0616, y: 65.3999}
   m_Pivot: {x: 0.22228234, y: 0.57617027}
 --- !u!114 &669336817
@@ -1816,7 +1815,7 @@ MonoBehaviour:
   startEvent:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &669336821
+--- !u!114 &669336820
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1825,12 +1824,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 669336815}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42b68b2378e01384b87dce92146de9d4, type: 3}
+  m_Script: {fileID: 11500000, guid: a926c9f255c769c45bda9dacfab3e249, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startEvent:
-    m_PersistentCalls:
-      m_Calls: []
+  seconds: 5
 --- !u!1 &1002900702
 GameObject:
   m_ObjectHideFlags: 0
@@ -2022,6 +2019,7 @@ RectTransform:
   - {fileID: 1430168248}
   - {fileID: 134102340}
   - {fileID: 1645558761}
+  - {fileID: 669336816}
   - {fileID: 69639056}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2154,16 +2152,16 @@ MonoBehaviour:
           m_StringArgument: Play
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 69639052}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: SetTrigger
-        m_Mode: 5
+      - m_Target: {fileID: 92629754}
+        m_TargetAssemblyTypeName: CoroutineBehaviour, Assembly-CSharp
+        m_MethodName: StartCounting
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Start
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 11400000, guid: 64d7660389f524a42b8c05f659898688, type: 2}
