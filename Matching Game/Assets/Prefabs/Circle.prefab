@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: -8167530896908917145}
   - component: {fileID: 5837122156205821789}
   - component: {fileID: -8754772964060171852}
+  - component: {fileID: 3667851667544351355}
   - component: {fileID: 1217329455319674831}
   - component: {fileID: -6691228267217310203}
   m_Layer: 0
@@ -241,6 +242,34 @@ MonoBehaviour:
   noMatchDelayedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &3667851667544351355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3197365122214464762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a7b33d4f08d9c74092da5e1ec427754, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameActionObj: {fileID: 11400000, guid: 95991a4ee97c95443bd6c02640501513, type: 2}
+  onRaiseEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1787687406310743302}
+        m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
+        m_MethodName: set_forceRenderingOff
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!82 &1217329455319674831
 AudioSource:
   m_ObjectHideFlags: 0

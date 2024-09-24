@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -5148368417732846644}
   - component: {fileID: -6016570315049480622}
   - component: {fileID: 8178489150947900491}
+  - component: {fileID: 2102997022374900026}
   - component: {fileID: 2440804533275387813}
   - component: {fileID: -2138319126375883812}
   - component: {fileID: -5750851388329240175}
@@ -345,6 +346,34 @@ MonoBehaviour:
   noMatchDelayedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &2102997022374900026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7162909776907669081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a7b33d4f08d9c74092da5e1ec427754, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameActionObj: {fileID: 11400000, guid: 95991a4ee97c95443bd6c02640501513, type: 2}
+  onRaiseEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8467882885938056625}
+        m_TargetAssemblyTypeName: UnityEngine.Renderer, UnityEngine
+        m_MethodName: set_forceRenderingOff
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &2440804533275387813
 MonoBehaviour:
   m_ObjectHideFlags: 0
