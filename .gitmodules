@@ -1,3 +1,6 @@
 [submodule "Scripts"]
 	path = Scripts
 	url = https://github.com/TylerWarren/Scripts
+[submodule "Tools"]
+	path = Tools
+	url = https://github.com/TylerWarren/ArtisanDream.Tools
