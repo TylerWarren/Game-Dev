@@ -399,3 +399,285 @@ Cooking...
 Cooking... - Cooking Op:  level1_copy36/box1
 Cooking... - Cooking Op:  level1_copy36/transform3
 Ready
+Creating the node... - Run Hscript command
+Creating the node... - Loading level1_copy1
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy1
+Cooking... - Cooking Op:  level1_copy1/grid1
+Cooking... - Cooking Op:  level1_copy1/box1
+Cooking... - Cooking Op:  level1_copy1/transform1
+Cooking... - Cooking Op:  level1_copy1/merge1
+Cooking... - Cooking Op:  level1_copy1/transform2
+Cooking... - Cooking Op:  level1_copy1/merge1
+Cooking... - Convexing display geometry
+Ready
+Cooking... - Cooking Op:  level1_copy1/box2
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy1
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy1/box1
+Cooking... - Cooking Op:  level1_copy1/merge1
+Ready
+Cooking... - Cooking Op:  level1_copy1/box1
+Ready
+Creating the node... - Loading level1_copy2
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy2/transform1
+Cooking... - Cooking Op:  level1_copy2/transform3
+Ready
+Cooking... - Cooking Op:  level1_copy2/box1
+Ready
+Creating the node... - Loading level1_copy3
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy3/transform1
+Cooking... - Cooking Op:  level1_copy3/merge1
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Loading level1_copy4
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy4/transform1
+Cooking... - Cooking Op:  level1_copy4/merge1
+Ready
+Creating the node... - Loading level1_copy5
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy5/transform1
+Cooking... - Cooking Op:  level1_copy5/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy6
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy6/transform1
+Cooking... - Cooking Op:  level1_copy6/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy7/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy8
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy8/transform1
+Cooking... - Cooking Op:  level1_copy8/merge1
+Ready
+Creating the node... - Run Hscript command
+Creating the node... - Loading level1_copy1
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy1/grid1
+Cooking... - Cooking Op:  level1_copy1/merge1
+Cooking... - Convexing display geometry
+Ready
+Cooking... - Cooking Op:  level1_copy1/transform3
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy2
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy2/transform1
+Cooking... - Cooking Op:  level1_copy2/merge1
+Ready
+Cooking... - Cooking Op:  level1_copy2/transform1
+Ready
+Creating the node... - Loading level1_copy3
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy3/transform1
+Cooking... - Cooking Op:  level1_copy3/merge1
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy4/transform1
+Cooking... - Cooking Op:  level1_copy4/merge1
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy5/transform1
+Cooking... - Cooking Op:  level1_copy5/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy6
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy6/transform1
+Cooking... - Cooking Op:  level1_copy6/transform3
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy7/transform1
+Cooking... - Cooking Op:  level1_copy7/merge1
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Loading level1_copy8
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy8/transform1
+Cooking... - Cooking Op:  level1_copy8/transform3
+Ready
+Creating the node...
+Creating the node... - Updating Exports
+Creating the node... - Loading level1_copy9
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy9/transform1
+Cooking... - Cooking Op:  level1_copy9/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy10/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy11/transform1
+Cooking... - Cooking Op:  level1_copy11/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy12
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy12/box1
+Cooking... - Cooking Op:  level1_copy12/transform3
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy13
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy13/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy14
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy14/transform2
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy15
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy15/transform1
+Cooking... - Cooking Op:  level1_copy15/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy16
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy16/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy17
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy17/transform1
+Cooking... - Cooking Op:  level1_copy17/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy18
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy18/transform1
+Cooking... - Cooking Op:  level1_copy18/transform3
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy19
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy19/transform1
+Cooking... - Cooking Op:  level1_copy19/merge1
+Ready
+Creating the node... - Loading level1_copy20
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy20/transform1
+Cooking... - Cooking Op:  level1_copy20/merge1
+Ready
+Creating the node... - Loading level1_copy21
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy21/transform1
+Cooking... - Cooking Op:  level1_copy21/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy22
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy22/transform1
+Cooking... - Cooking Op:  level1_copy22/merge1
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Loading level1_copy23
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy23/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy24/box3
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy24/box1
+Cooking... - Cooking Op:  level1_copy24/transform3
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy25
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy25/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy26/transform1
+Cooking... - Cooking Op:  level1_copy26/merge1
+Ready
