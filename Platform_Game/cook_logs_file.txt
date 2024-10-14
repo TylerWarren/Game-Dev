@@ -852,3 +852,4788 @@ Unable to save session to file: {"_HAPISession":{"type":1,"id":2345177840128},"_
   at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
   at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
   at HoudiniEngineUnity.HEU_Platform.WriteAllText (System.String path, System.String text) [0x00000] in C:\Users\tgwar\Desktop\School\Repositories\Game Dev\Platform_Game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_Platform.cs:460 
+Creating the node... - Run Hscript command
+Creating the node... - Loading level1_copy1
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy1
+Cooking... - Cooking Op:  level1_copy1/grid1
+Cooking... - Cooking Op:  level1_copy1/box1
+Cooking... - Cooking Op:  level1_copy1/transform1
+Cooking... - Cooking Op:  level1_copy1/merge1
+Cooking... - Cooking Op:  level1_copy1/box2
+Cooking... - Cooking Op:  level1_copy1/merge1
+Cooking... - Convexing display geometry
+Ready
+Cooking... - Cooking Op:  level1_copy1/transform2
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy2
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy2/transform1
+Cooking... - Cooking Op:  level1_copy2/transform3
+Ready
+Cooking... - Cooking Op:  level1_copy2/box1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy3
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy3/transform1
+Cooking... - Cooking Op:  level1_copy3/merge1
+Ready
+Cooking... - Cooking Op:  level1_copy3/box1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy4
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy4/transform1
+Cooking... - Cooking Op:  level1_copy4/merge1
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy5/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy6/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy7
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy7/transform1
+Cooking... - Cooking Op:  level1_copy7/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy8/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy9/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy10
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy10/transform1
+Cooking... - Cooking Op:  level1_copy10/merge1
+Ready
+Cooking... - Cooking Op:  level1_copy10/box1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy11
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy11/transform1
+Cooking... - Cooking Op:  level1_copy11/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy12
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy12/transform1
+Cooking... - Cooking Op:  level1_copy12/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy13/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy14
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy14/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy15
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy15/transform1
+Cooking... - Cooking Op:  level1_copy15/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy16/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy17/transform1
+Cooking... - Convexing display geometry
+Ready
+Cooking... - Cooking Op:  level1_copy15/box1
+Ready
+Creating the node... - Loading level1_copy18
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy18/transform1
+Cooking... - Cooking Op:  level1_copy18/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy19
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy19/transform1
+Cooking... - Cooking Op:  level1_copy19/merge1
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy20/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy21
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy21/transform1
+Cooking... - Cooking Op:  level1_copy21/merge1
+Ready
+Creating the node... - Loading level1_copy22
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy22/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy23
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy23/merge1
+Cooking... - Convexing display geometry
+Ready
+Cooking... - Cooking Op:  level1_copy21/box2
+Ready
+Creating the node... - Loading level1_copy24
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy24/transform1
+Cooking... - Cooking Op:  level1_copy24/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy25/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy26
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy26/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy27
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy27/transform1
+Cooking... - Cooking Op:  level1_copy27/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy28
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy28/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy29/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy30
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy30/transform1
+Cooking... - Cooking Op:  level1_copy30/merge1
+Ready
+Cooking... - Cooking Op:  level1_copy30/transform1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy31
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy31/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Run Hscript command
+Creating the node... - Loading level_wall1
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall1/transform2
+Ready
+Cooking... - Cooking Op:  level_wall1/box1
+Ready
+Cooking... - Cooking Op:  level_wall1/box1
+Ready
+Cooking... - Cooking Op:  level_wall1/transform2
+Ready
+Cooking... - Cooking Op:  level_wall1/transform2
+Ready
+Creating the node...
+Creating the node... - Loading level_wall1
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall1/transform2
+Ready
+Cooking... - Cooking Op:  level_wall1/merge1
+Ready
+Cooking... - Cooking Op:  level_wall1/box2
+Ready
+Cooking... - Cooking Op:  level_wall1/box2
+Ready
+Cooking... - Cooking Op:  level_wall1/transform2
+Ready
+Cooking... - Cooking Op:  level_wall1/transform2
+Ready
+Creating the node...
+Creating the node... - Loading level_wall2
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall2/transform2
+Cooking... - Convexing display geometry
+Ready
+Cooking... - Cooking Op:  level_wall2/box2
+Ready
+Creating the node...
+Creating the node... - Updating Exports
+Creating the node... - Loading level_wall3
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall3/transform2
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy32
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy32/transform1
+Cooking... - Cooking Op:  level1_copy32/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy33/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Loading level1_copy34
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy34/box2
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level_wall4
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall4/box1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy35
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy35/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Loading level1_copy36
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy36/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy37
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy37/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level_wall5
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall5/box2
+Cooking... - Cooking Op:  level_wall5/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy38
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy38/transform1
+Cooking... - Cooking Op:  level1_copy38/merge1
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy39/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy40/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level_wall6
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall6/transform2
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy41
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy41/transform1
+Cooking... - Cooking Op:  level1_copy41/merge1
+Ready
+Creating the node... - Loading level1_copy42
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy42/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy43/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level_wall7
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall7/transform2
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Run Hscript command
+Creating the node... - Loading level1_copy1
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy1/grid1
+Cooking... - Cooking Op:  level1_copy1/transform2
+Cooking... - Convexing display geometry
+Ready
+Cooking... - Cooking Op:  level1_copy1/merge1
+Ready
+Creating the node... - Run Hscript command
+Creating the node... - Loading level_wall1
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall1/transform2
+Cooking... - Convexing display geometry
+Ready
+Cooking... - Cooking Op:  level_wall1/box1
+Ready
+Cooking... - Cooking Op:  level_wall1/transform2
+Ready
+Cooking... - Cooking Op:  level_wall1/transform2
+Ready
+Creating the node...
+Creating the node... - Loading level_wall2
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall2/transform1
+Ready
+Cooking... - Cooking Op:  level_wall2/transform2
+Ready
+Cooking... - Cooking Op:  level_wall2/transform2
+Ready
+Cooking... - Convexing display geometry
+Ready
+Cooking... - Cooking Op:  level_wall2/transform1
+Ready
+Cooking... - Cooking Op:  level_wall2/merge1
+Ready
+Cooking... - Cooking Op:  level_wall2/merge1
+Ready
+Cooking... - Cooking Op:  level_wall2/transform1
+Ready
+Cooking... - Cooking Op:  level_wall2/transform1
+Ready
+Cooking... - Cooking Op:  level_wall2/transform1
+Ready
+Cooking... - Cooking Op:  level_wall2/transform1
+Ready
+Cooking... - Cooking Op:  level_wall2/transform2
+Ready
+Cooking... - Cooking Op:  level_wall2/transform2
+Ready
+Cooking... - Cooking Op:  level_wall2/transform2
+Ready
+Cooking... - Cooking Op:  level_wall2/transform2
+Ready
+Cooking... - Cooking Op:  level_wall2/transform2
+Ready
+Cooking... - Cooking Op:  level_wall2/transform2
+Ready
+Cooking... - Cooking Op:  level_wall2/transform2
+Ready
+Cooking... - Cooking Op:  level_wall2/transform2
+Ready
+Cooking... - Cooking Op:  level_wall2/transform1
+Ready
+Creating the node...
+Creating the node... - Loading level_wall3
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall3/transform2
+Cooking... - Convexing display geometry
+Ready
+Cooking... - Cooking Op:  level_wall3/box2
+Ready
+Creating the node...
+Creating the node... - Loading level_wall4
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall4/transform2
+Cooking... - Convexing display geometry
+Ready
+Cooking... - Cooking Op:  level_wall4/transform2
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall4/transform2
+Ready
+Cooking... - Cooking Op:  level_wall4/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level_wall5
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall5/transform2
+Cooking... - Convexing display geometry
+Ready
+Cooking... - Cooking Op:  level_wall5/box2
+Ready
+Creating the node... - Loading level_wall6
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall6/transform2
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall7/transform2
+Ready
+Creating the node... - Loading level_wall8
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall8/transform2
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy2
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy2/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy3
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy3/transform1
+Cooking... - Cooking Op:  level1_copy3/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level_wall9
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall9/transform2
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall10/transform2
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall11/transform2
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy4
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy4/transform1
+Cooking... - Cooking Op:  level1_copy4/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy5/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level_wall12
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall12/transform2
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall13/transform2
+Ready
+Creating the node... - Loading level_wall14
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall14/transform2
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy6
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy6/transform1
+Cooking... - Cooking Op:  level1_copy6/merge1
+Ready
+Creating the node... - Loading level1_copy7
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy7/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level_wall15
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall15/transform2
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall16/transform2
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall17/transform2
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy8
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy8/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy9
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy9/transform1
+Cooking... - Cooking Op:  level1_copy9/merge1
+Ready
+Creating the node... - Loading level_wall18
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall18/transform2
+Cooking... - Cooking Op:  level_wall18/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level_wall19
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall19/transform2
+Ready
+Creating the node...
+Creating the node... - Loading level_wall20
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall20/transform2
+Cooking... - Cooking Op:  level_wall20/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy10
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy10/transform1
+Cooking... - Cooking Op:  level1_copy10/transform3
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy11
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy11/transform1
+Cooking... - Cooking Op:  level1_copy11/transform3
+Ready
+Creating the node...
+Creating the node... - Loading level_wall21
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall21/transform2
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall22/transform2
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall23/transform2
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy12
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy12/box1
+Cooking... - Cooking Op:  level1_copy12/transform3
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy13
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy13/transform1
+Cooking... - Cooking Op:  level1_copy13/transform3
+Ready
+Creating the node... - Loading level_wall24
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall24/transform2
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall25/transform2
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall26/transform2
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy14
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy14/transform2
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Loading level1_copy15
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy15/transform1
+Cooking... - Cooking Op:  level1_copy15/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level_wall27
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall27/transform2
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall28/box1
+Ready
+Creating the node... - Loading level_wall29
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall29/transform2
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy16
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy16/transform1
+Cooking... - Cooking Op:  level1_copy16/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy17
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy17/transform2
+Ready
+Creating the node...
+Creating the node... - Loading level_wall30
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall30/box2
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall31/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall32/transform2
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy18
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy18/transform1
+Cooking... - Cooking Op:  level1_copy18/merge1
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy19/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level_wall33
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall33
+Cooking... - Cooking Op:  level_wall33/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall34/transform2
+Ready
+Creating the node... - Loading level_wall35
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall35/transform2
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy20
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy20/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy21
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy21/box2
+Cooking... - Convexing display geometry
+Ready
+Cooking... - Cooking Op:  level_wall35/transform2
+Ready
+Creating the node...
+Creating the node... - Loading level_wall36
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall36/transform2
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy22
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy22/transform1
+Cooking... - Cooking Op:  level1_copy22/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy23
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy23/transform1
+Cooking... - Cooking Op:  level1_copy23/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level_wall37
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall37/transform2
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy24
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy24/transform1
+Cooking... - Cooking Op:  level1_copy24/merge1
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy25/transform1
+Cooking... - Cooking Op:  level1_copy25/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level_wall37
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall37/transform2
+Ready
+Cooking... - Cooking Op:  level_wall37/merge1
+Ready
+Creating the node... - Loading level_wall38
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall38/transform2
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy26
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy26/transform1
+Cooking... - Cooking Op:  level1_copy26/merge1
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Loading level1_copy27
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy27/box2
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level_wall39
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall39/box2
+Cooking... - Cooking Op:  level_wall39/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy28
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy28/transform1
+Cooking... - Cooking Op:  level1_copy28/merge1
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy29/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level_wall40
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall40/transform2
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy30
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy30/transform1
+Cooking... - Cooking Op:  level1_copy30/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy31
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy31/transform1
+Cooking... - Cooking Op:  level1_copy31/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level_wall41
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall41/transform2
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy32
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy32/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy33/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level_wall42
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall42/transform2
+Cooking... - Cooking Op:  level_wall42/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy34
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy34/transform1
+Cooking... - Cooking Op:  level1_copy34/box3
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Loading level1_copy35
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy35/transform1
+Cooking... - Cooking Op:  level1_copy35/transform3
+Ready
+Creating the node...
+Creating the node... - Loading level_wall43
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall43/transform2
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy36
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy36/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy37/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level_wall43
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall43/transform2
+Ready
+Cooking... - Cooking Op:  level_wall43/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level_wall44
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall44/transform2
+Cooking... - Cooking Op:  level_wall44/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy38
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy38/transform1
+Cooking... - Cooking Op:  level1_copy38/transform3
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy39
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy39/transform1
+Cooking... - Cooking Op:  level1_copy39/transform3
+Ready
+Creating the node...
+Creating the node... - Loading level_wall45
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall45
+Cooking... - Cooking Op:  level_wall45/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy40
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy40/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy41
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy41/merge1
+Cooking... - Convexing display geometry
+Ready
+Unable to save session to file: {"_HAPISession":{"type":1,"id":2371816200160},"_serverProcessID":5824,"_initialized":true,"_pipeName":"hapi","_port":0,"_sessionClassType":"HoudiniEngineUnity.HEU_SessionHAPI","_isDefaultSession":true,"_sessionSync":{"_status":0,"_timeLastUpdate":0.0,"_timeStartConnection":0.0,"_newNodeName":"geo1","_nodeTypeIndex":0,"_validForConnection":false,"_viewportHAPI":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportLocal":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportJustUpdated":false,"_syncInfo":{"cookUsingHoudiniTime":false,"syncViewport":false}},"_connectionState":1,"_sessionMode":1};. Exception: System.IO.IOException: Sharing violation on path C:\Users\tgwar\Desktop\School\Repositories\Game-Dev\Platform_Game\heu_session.txt
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at HoudiniEngineUnity.HEU_Platform.WriteAllText (System.String path, System.String text) [0x00000] in C:\Users\tgwar\Desktop\School\Repositories\Game Dev\Platform_Game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_Platform.cs:460 
+Creating the node...
+Creating the node... - Loading level_wall46
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall46/transform2
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy42
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy42/transform1
+Cooking... - Cooking Op:  level1_copy42/merge1
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy43/transform1
+Cooking... - Cooking Op:  level1_copy43/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level_wall47
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall47/transform2
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy44
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy44/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy45/transform1
+Cooking... - Convexing display geometry
+Ready
+Unable to save session to file: {"_HAPISession":{"type":1,"id":2371816200160},"_serverProcessID":5824,"_initialized":true,"_pipeName":"hapi","_port":0,"_sessionClassType":"HoudiniEngineUnity.HEU_SessionHAPI","_isDefaultSession":true,"_sessionSync":{"_status":0,"_timeLastUpdate":0.0,"_timeStartConnection":0.0,"_newNodeName":"geo1","_nodeTypeIndex":0,"_validForConnection":false,"_viewportHAPI":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportLocal":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportJustUpdated":false,"_syncInfo":{"cookUsingHoudiniTime":false,"syncViewport":false}},"_connectionState":1,"_sessionMode":1};. Exception: System.IO.IOException: Sharing violation on path C:\Users\tgwar\Desktop\School\Repositories\Game-Dev\Platform_Game\heu_session.txt
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at HoudiniEngineUnity.HEU_Platform.WriteAllText (System.String path, System.String text) [0x00000] in C:\Users\tgwar\Desktop\School\Repositories\Game Dev\Platform_Game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_Platform.cs:460 
+Creating the node... - Loading level_wall48
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall48/transform2
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy46
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy46
+Cooking... - Cooking Op:  level1_copy46/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy47/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level_wall49
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall49/transform2
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy48
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy48/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy49
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy49/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy50
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy50/transform1
+Cooking... - Cooking Op:  level1_copy50/merge1
+Ready
+Cooking... - Cooking Op:  level1_copy50/transform1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy51
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy51/transform1
+Cooking... - Cooking Op:  level1_copy51/merge1
+Ready
+Creating the node... - Loading level1_copy52
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy52/transform1
+Cooking... - Cooking Op:  level1_copy52/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy53
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy53/transform1
+Cooking... - Cooking Op:  level1_copy53/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy54/transform2
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy55/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy56
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy56/transform1
+Cooking... - Cooking Op:  level1_copy56/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy57/transform1
+Cooking... - Cooking Op:  level1_copy57/merge1
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy58/box2
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy59/box2
+Ready
+Creating the node... - Loading level1_copy60
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy60/transform1
+Cooking... - Cooking Op:  level1_copy60/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy61
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy61/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy62/transform2
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy63
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy63/transform1
+Cooking... - Cooking Op:  level1_copy63/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy64/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy65/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Run Hscript command
+Creating the node... - Loading lava1
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava1/transform1
+Ready
+Unable to save session to file: {"_HAPISession":{"type":1,"id":2371816200160},"_serverProcessID":5824,"_initialized":true,"_pipeName":"hapi","_port":0,"_sessionClassType":"HoudiniEngineUnity.HEU_SessionHAPI","_isDefaultSession":true,"_sessionSync":{"_status":0,"_timeLastUpdate":0.0,"_timeStartConnection":0.0,"_newNodeName":"geo1","_nodeTypeIndex":0,"_validForConnection":false,"_viewportHAPI":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportLocal":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportJustUpdated":false,"_syncInfo":{"cookUsingHoudiniTime":false,"syncViewport":false}},"_connectionState":1,"_sessionMode":1};. Exception: System.IO.IOException: Sharing violation on path C:\Users\tgwar\Desktop\School\Repositories\Game-Dev\Platform_Game\heu_session.txt
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at HoudiniEngineUnity.HEU_Platform.WriteAllText (System.String path, System.String text) [0x00000] in C:\Users\tgwar\Desktop\School\Repositories\Game Dev\Platform_Game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_Platform.cs:460 
+Creating the node...
+Creating the node... - Loading lava2
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava2/transform1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy66
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy66/transform1
+Cooking... - Cooking Op:  level1_copy66/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy67/transform1
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy68/transform2
+Ready
+Creating the node...
+Creating the node... - Loading lava3
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava3/transform1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy69
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy69/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy70/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy71
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy71/transform1
+Cooking... - Convexing display geometry
+Ready
+Cooking... - Cooking Op:  lava3/transform1
+Ready
+Creating the node...
+Creating the node... - Loading lava4
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava4/transform1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy72
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy72/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy73/transform1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy74/transform2
+Ready
+Creating the node...
+Creating the node... - Loading lava5
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava5/transform1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy75
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy75/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy76
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy76/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy77/merge1
+Ready
+Unable to save session to file: {"_HAPISession":{"type":1,"id":2371816200160},"_serverProcessID":5824,"_initialized":true,"_pipeName":"hapi","_port":0,"_sessionClassType":"HoudiniEngineUnity.HEU_SessionHAPI","_isDefaultSession":true,"_sessionSync":{"_status":0,"_timeLastUpdate":0.0,"_timeStartConnection":0.0,"_newNodeName":"geo1","_nodeTypeIndex":0,"_validForConnection":false,"_viewportHAPI":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportLocal":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportJustUpdated":false,"_syncInfo":{"cookUsingHoudiniTime":false,"syncViewport":false}},"_connectionState":1,"_sessionMode":1};. Exception: System.IO.IOException: Sharing violation on path C:\Users\tgwar\Desktop\School\Repositories\Game-Dev\Platform_Game\heu_session.txt
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at HoudiniEngineUnity.HEU_Platform.WriteAllText (System.String path, System.String text) [0x00000] in C:\Users\tgwar\Desktop\School\Repositories\Game Dev\Platform_Game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_Platform.cs:460 
+Creating the node... - Loading lava6
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava6/transform1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy78
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy78/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy79
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy79/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy80
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy80/grid1
+Cooking... - Cooking Op:  level1_copy80/transform3
+Ready
+Creating the node...
+Creating the node... - Loading lava7
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava7/transform1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy81
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy81/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy82
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy82/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy83
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy83/box2
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy84
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy84/transform1
+Cooking... - Cooking Op:  level1_copy84/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy85/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy86
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy86/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy87
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy87/transform1
+Cooking... - Cooking Op:  level1_copy87/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy88/box2
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy89/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy90
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy90/transform1
+Cooking... - Cooking Op:  level1_copy90/merge1
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Loading level1_copy91
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy91/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy92
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy92/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy93
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy93/transform1
+Cooking... - Cooking Op:  level1_copy93/transform3
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy94/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy95/grid1
+Cooking... - Cooking Op:  level1_copy95/transform3
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy96
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy96/transform1
+Cooking... - Cooking Op:  level1_copy96/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy97
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy97/transform1
+Cooking... - Cooking Op:  level1_copy97/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy98/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy99
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy99/transform1
+Cooking... - Cooking Op:  level1_copy99/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy100/transform1
+Cooking... - Cooking Op:  level1_copy100/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy101
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy101/transform1
+Cooking... - Cooking Op:  level1_copy101/merge1
+Ready
+Creating the node... - Loading level1_copy102
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy102/transform1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy103
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy103/transform1
+Cooking... - Cooking Op:  level1_copy103/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy104
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy104/transform1
+Cooking... - Cooking Op:  level1_copy104/merge1
+Ready
+Unable to save session to file: {"_HAPISession":{"type":1,"id":2371816200160},"_serverProcessID":5824,"_initialized":true,"_pipeName":"hapi","_port":0,"_sessionClassType":"HoudiniEngineUnity.HEU_SessionHAPI","_isDefaultSession":true,"_sessionSync":{"_status":0,"_timeLastUpdate":0.0,"_timeStartConnection":0.0,"_newNodeName":"geo1","_nodeTypeIndex":0,"_validForConnection":false,"_viewportHAPI":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportLocal":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportJustUpdated":false,"_syncInfo":{"cookUsingHoudiniTime":false,"syncViewport":false}},"_connectionState":1,"_sessionMode":1};. Exception: System.IO.IOException: Sharing violation on path C:\Users\tgwar\Desktop\School\Repositories\Game-Dev\Platform_Game\heu_session.txt
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at HoudiniEngineUnity.HEU_Platform.WriteAllText (System.String path, System.String text) [0x00000] in C:\Users\tgwar\Desktop\School\Repositories\Game Dev\Platform_Game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_Platform.cs:460 
+Creating the node...
+Creating the node... - Loading level1_copy105
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy105/transform1
+Cooking... - Cooking Op:  level1_copy105/transform3
+Ready
+Creating the node... - Loading level1_copy106
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy106/transform1
+Cooking... - Cooking Op:  level1_copy106/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy107
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy107/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy108
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy108/transform1
+Cooking... - Cooking Op:  level1_copy108/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy109
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy109/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy110
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy110/transform1
+Cooking... - Cooking Op:  level1_copy110/merge1
+Ready
+Unable to save session to file: {"_HAPISession":{"type":1,"id":2371816200160},"_serverProcessID":5824,"_initialized":true,"_pipeName":"hapi","_port":0,"_sessionClassType":"HoudiniEngineUnity.HEU_SessionHAPI","_isDefaultSession":true,"_sessionSync":{"_status":0,"_timeLastUpdate":0.0,"_timeStartConnection":0.0,"_newNodeName":"geo1","_nodeTypeIndex":0,"_validForConnection":false,"_viewportHAPI":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportLocal":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportJustUpdated":false,"_syncInfo":{"cookUsingHoudiniTime":false,"syncViewport":false}},"_connectionState":1,"_sessionMode":1};. Exception: System.IO.IOException: Sharing violation on path C:\Users\tgwar\Desktop\School\Repositories\Game-Dev\Platform_Game\heu_session.txt
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at HoudiniEngineUnity.HEU_Platform.WriteAllText (System.String path, System.String text) [0x00000] in C:\Users\tgwar\Desktop\School\Repositories\Game Dev\Platform_Game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_Platform.cs:460 
+Creating the node...
+Creating the node... - Loading level1_copy111
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy111/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy112
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy112/box2
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy113/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy114
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy114
+Cooking... - Cooking Op:  level1_copy114/transform2
+Ready
+Creating the node... - Loading level1_copy115
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy115/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy116/merge1
+Cooking... - Convexing display geometry
+Ready
+Unable to save session to file: {"_HAPISession":{"type":1,"id":2371816200160},"_serverProcessID":5824,"_initialized":true,"_pipeName":"hapi","_port":0,"_sessionClassType":"HoudiniEngineUnity.HEU_SessionHAPI","_isDefaultSession":true,"_sessionSync":{"_status":0,"_timeLastUpdate":0.0,"_timeStartConnection":0.0,"_newNodeName":"geo1","_nodeTypeIndex":0,"_validForConnection":false,"_viewportHAPI":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportLocal":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportJustUpdated":false,"_syncInfo":{"cookUsingHoudiniTime":false,"syncViewport":false}},"_connectionState":1,"_sessionMode":1};. Exception: System.IO.IOException: Sharing violation on path C:\Users\tgwar\Desktop\School\Repositories\Game-Dev\Platform_Game\heu_session.txt
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at HoudiniEngineUnity.HEU_Platform.WriteAllText (System.String path, System.String text) [0x00000] in C:\Users\tgwar\Desktop\School\Repositories\Game Dev\Platform_Game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_Platform.cs:460 
+Creating the node... - Loading level1_copy117
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy117/transform1
+Cooking... - Cooking Op:  level1_copy117/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy118
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy118/transform1
+Cooking... - Cooking Op:  level1_copy118/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy119
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy119/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy120
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy120/transform1
+Cooking... - Cooking Op:  level1_copy120/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy121/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy122/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy123
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy123/transform1
+Cooking... - Cooking Op:  level1_copy123/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy124
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy124/transform1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy125/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy126
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy126/transform1
+Cooking... - Cooking Op:  level1_copy126/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy127
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy127/transform1
+Cooking... - Cooking Op:  level1_copy127/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy128/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy129
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy129/transform1
+Cooking... - Cooking Op:  level1_copy129/merge1
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy130/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy131/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Updating Exports
+Creating the node... - Loading level1_copy132
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy132/box1
+Cooking... - Cooking Op:  level1_copy132/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy133/transform2
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy134
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy134/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy135
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy135/transform1
+Cooking... - Cooking Op:  level1_copy135/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy136/grid1
+Cooking... - Cooking Op:  level1_copy136/transform3
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy137
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy137/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy138
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy138/transform1
+Cooking... - Cooking Op:  level1_copy138/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy139
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy139/box1
+Cooking... - Cooking Op:  level1_copy139/transform3
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy140/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy141
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy141/transform1
+Cooking... - Cooking Op:  level1_copy141/transform3
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy142
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy142/transform1
+Cooking... - Cooking Op:  level1_copy142/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy143
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy143/transform1
+Cooking... - Cooking Op:  level1_copy143/merge1
+Ready
+Creating the node... - Loading level1_copy144
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy144/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy145/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy146
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy146/transform2
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy147
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy147/transform1
+Cooking... - Cooking Op:  level1_copy147/merge1
+Ready
+Creating the node... - Loading level1_copy148
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy148/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy149/transform1
+Cooking... - Cooking Op:  level1_copy149/merge1
+Ready
+Creating the node... - Loading level1_copy150
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy150/transform1
+Cooking... - Cooking Op:  level1_copy150/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy151/transform2
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy152
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy152/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy153
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy153/transform1
+Cooking... - Cooking Op:  level1_copy153/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy154/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy155
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy155/merge1
+Cooking... - Convexing display geometry
+Ready
+Unable to save session to file: {"_HAPISession":{"type":1,"id":2371816200160},"_serverProcessID":5824,"_initialized":true,"_pipeName":"hapi","_port":0,"_sessionClassType":"HoudiniEngineUnity.HEU_SessionHAPI","_isDefaultSession":true,"_sessionSync":{"_status":0,"_timeLastUpdate":0.0,"_timeStartConnection":0.0,"_newNodeName":"geo1","_nodeTypeIndex":0,"_validForConnection":false,"_viewportHAPI":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportLocal":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportJustUpdated":false,"_syncInfo":{"cookUsingHoudiniTime":false,"syncViewport":false}},"_connectionState":1,"_sessionMode":1};. Exception: System.IO.IOException: Sharing violation on path C:\Users\tgwar\Desktop\School\Repositories\Game-Dev\Platform_Game\heu_session.txt
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at HoudiniEngineUnity.HEU_Platform.WriteAllText (System.String path, System.String text) [0x00000] in C:\Users\tgwar\Desktop\School\Repositories\Game Dev\Platform_Game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_Platform.cs:460 
+Creating the node... - Loading level1_copy156
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy156/transform1
+Cooking... - Cooking Op:  level1_copy156/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy157
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy157/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy158/transform2
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy159
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy159/box1
+Cooking... - Cooking Op:  level1_copy159/merge1
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Loading level1_copy160
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy160
+Cooking... - Cooking Op:  level1_copy160/transform3
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy161/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy162
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy162/transform1
+Cooking... - Cooking Op:  level1_copy162/transform3
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy163
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy163/transform1
+Cooking... - Cooking Op:  level1_copy163/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy164
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy164/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy165
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy165/box1
+Cooking... - Cooking Op:  level1_copy165/transform3
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy166
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy166/transform2
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy167/transform2
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy168
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy168/transform1
+Cooking... - Cooking Op:  level1_copy168/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy169/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy170/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy171
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy171/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy172/transform1
+Cooking... - Cooking Op:  level1_copy172/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy173
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy173/transform1
+Cooking... - Convexing display geometry
+Ready
+Unable to save session to file: {"_HAPISession":{"type":1,"id":2371816200160},"_serverProcessID":5824,"_initialized":true,"_pipeName":"hapi","_port":0,"_sessionClassType":"HoudiniEngineUnity.HEU_SessionHAPI","_isDefaultSession":true,"_sessionSync":{"_status":0,"_timeLastUpdate":0.0,"_timeStartConnection":0.0,"_newNodeName":"geo1","_nodeTypeIndex":0,"_validForConnection":false,"_viewportHAPI":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportLocal":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportJustUpdated":false,"_syncInfo":{"cookUsingHoudiniTime":false,"syncViewport":false}},"_connectionState":1,"_sessionMode":1};. Exception: System.IO.IOException: Sharing violation on path C:\Users\tgwar\Desktop\School\Repositories\Game-Dev\Platform_Game\heu_session.txt
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at HoudiniEngineUnity.HEU_Platform.WriteAllText (System.String path, System.String text) [0x00000] in C:\Users\tgwar\Desktop\School\Repositories\Game Dev\Platform_Game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_Platform.cs:460 
+Creating the node... - Loading level1_copy174
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy174/transform1
+Cooking... - Cooking Op:  level1_copy174/transform3
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy175
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy175/transform1
+Cooking... - Cooking Op:  level1_copy175/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy176
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy176/transform1
+Cooking... - Cooking Op:  level1_copy176/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy177
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy177/transform1
+Cooking... - Cooking Op:  level1_copy177/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy178/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy179
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy179/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy180
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy180/transform1
+Cooking... - Cooking Op:  level1_copy180/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy181/transform2
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy182
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy182/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy183
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy183/transform1
+Cooking... - Cooking Op:  level1_copy183/transform3
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy184/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy185
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy185/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Unable to save session to file: {"_HAPISession":{"type":1,"id":2371816200160},"_serverProcessID":5824,"_initialized":true,"_pipeName":"hapi","_port":0,"_sessionClassType":"HoudiniEngineUnity.HEU_SessionHAPI","_isDefaultSession":true,"_sessionSync":{"_status":0,"_timeLastUpdate":0.0,"_timeStartConnection":0.0,"_newNodeName":"geo1","_nodeTypeIndex":0,"_validForConnection":false,"_viewportHAPI":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportLocal":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportJustUpdated":false,"_syncInfo":{"cookUsingHoudiniTime":false,"syncViewport":false}},"_connectionState":1,"_sessionMode":1};. Exception: System.IO.IOException: Sharing violation on path C:\Users\tgwar\Desktop\School\Repositories\Game-Dev\Platform_Game\heu_session.txt
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at HoudiniEngineUnity.HEU_Platform.WriteAllText (System.String path, System.String text) [0x00000] in C:\Users\tgwar\Desktop\School\Repositories\Game Dev\Platform_Game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_Platform.cs:460 
+Creating the node... - Loading level1_copy186
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy186/box2
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy187
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy187
+Cooking... - Cooking Op:  level1_copy187/transform3
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy188
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy188/transform1
+Cooking... - Cooking Op:  level1_copy188/merge1
+Ready
+Unable to save session to file: {"_HAPISession":{"type":1,"id":2371816200160},"_serverProcessID":5824,"_initialized":true,"_pipeName":"hapi","_port":0,"_sessionClassType":"HoudiniEngineUnity.HEU_SessionHAPI","_isDefaultSession":true,"_sessionSync":{"_status":0,"_timeLastUpdate":0.0,"_timeStartConnection":0.0,"_newNodeName":"geo1","_nodeTypeIndex":0,"_validForConnection":false,"_viewportHAPI":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportLocal":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportJustUpdated":false,"_syncInfo":{"cookUsingHoudiniTime":false,"syncViewport":false}},"_connectionState":1,"_sessionMode":1};. Exception: System.IO.IOException: Sharing violation on path C:\Users\tgwar\Desktop\School\Repositories\Game-Dev\Platform_Game\heu_session.txt
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at HoudiniEngineUnity.HEU_Platform.WriteAllText (System.String path, System.String text) [0x00000] in C:\Users\tgwar\Desktop\School\Repositories\Game Dev\Platform_Game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_Platform.cs:460 
+Creating the node...
+Creating the node... - Loading level1_copy189
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy189/transform1
+Cooking... - Cooking Op:  level1_copy189/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy190
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy190/box2
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy191
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy191/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy192
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy192/transform1
+Cooking... - Cooking Op:  level1_copy192/merge1
+Ready
+Creating the node... - Loading level1_copy193
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy193/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy194/transform1
+Cooking... - Convexing display geometry
+Ready
+Unable to save session to file: {"_HAPISession":{"type":1,"id":2371816200160},"_serverProcessID":5824,"_initialized":true,"_pipeName":"hapi","_port":0,"_sessionClassType":"HoudiniEngineUnity.HEU_SessionHAPI","_isDefaultSession":true,"_sessionSync":{"_status":0,"_timeLastUpdate":0.0,"_timeStartConnection":0.0,"_newNodeName":"geo1","_nodeTypeIndex":0,"_validForConnection":false,"_viewportHAPI":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportLocal":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportJustUpdated":false,"_syncInfo":{"cookUsingHoudiniTime":false,"syncViewport":false}},"_connectionState":1,"_sessionMode":1};. Exception: System.IO.IOException: Sharing violation on path C:\Users\tgwar\Desktop\School\Repositories\Game-Dev\Platform_Game\heu_session.txt
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at HoudiniEngineUnity.HEU_Platform.WriteAllText (System.String path, System.String text) [0x00000] in C:\Users\tgwar\Desktop\School\Repositories\Game Dev\Platform_Game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_Platform.cs:460 
+Creating the node...
+Creating the node... - Loading level1_copy195
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy195/transform1
+Cooking... - Cooking Op:  level1_copy195/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy196
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy196/transform1
+Cooking... - Cooking Op:  level1_copy196/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy197
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy197/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy198
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy198/transform1
+Cooking... - Cooking Op:  level1_copy198/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy199
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy199/transform1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy200/merge1
+Cooking... - Convexing display geometry
+Ready
+Unable to save session to file: {"_HAPISession":{"type":1,"id":2371816200160},"_serverProcessID":5824,"_initialized":true,"_pipeName":"hapi","_port":0,"_sessionClassType":"HoudiniEngineUnity.HEU_SessionHAPI","_isDefaultSession":true,"_sessionSync":{"_status":0,"_timeLastUpdate":0.0,"_timeStartConnection":0.0,"_newNodeName":"geo1","_nodeTypeIndex":0,"_validForConnection":false,"_viewportHAPI":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportLocal":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportJustUpdated":false,"_syncInfo":{"cookUsingHoudiniTime":false,"syncViewport":false}},"_connectionState":1,"_sessionMode":1};. Exception: System.IO.IOException: Sharing violation on path C:\Users\tgwar\Desktop\School\Repositories\Game-Dev\Platform_Game\heu_session.txt
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at HoudiniEngineUnity.HEU_Platform.WriteAllText (System.String path, System.String text) [0x00000] in C:\Users\tgwar\Desktop\School\Repositories\Game Dev\Platform_Game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_Platform.cs:460 
+Creating the node... - Loading level1_copy201
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy201/transform1
+Cooking... - Cooking Op:  level1_copy201/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy202
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy202/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy203/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy204
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy204/transform1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy205/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy206/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Run Hscript command
+Creating the node... - Loading level1_copy1
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy1/grid1
+Cooking... - Cooking Op:  level1_copy1/transform2
+Cooking... - Cooking Op:  level1_copy1/merge1
+Ready
+Cooking... - Cooking Op:  level1_copy1/merge1
+Ready
+Cooking... - Cooking Op:  level1_copy1/box1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy2
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy2/transform1
+Cooking... - Cooking Op:  level1_copy2/merge1
+Ready
+Cooking... - Cooking Op:  level1_copy2/transform1
+Ready
+Cooking... - Cooking Op:  level1_copy2/box1
+Ready
+Cooking... - Cooking Op:  level1_copy2/box1
+Ready
+Cooking... - Cooking Op:  level1_copy2/box1
+Ready
+Cooking... - Cooking Op:  level1_copy2/transform1
+Ready
+Cooking... - Cooking Op:  level1_copy2/transform1
+Ready
+Cooking... - Cooking Op:  level1_copy2/merge1
+Ready
+Cooking... - Cooking Op:  level1_copy2/transform3
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy2/transform1
+Cooking... - Cooking Op:  level1_copy2/merge1
+Ready
+Cooking... - Cooking Op:  level1_copy2/box2
+Ready
+Cooking... - Cooking Op:  level1_copy2/box2
+Ready
+Cooking... - Cooking Op:  level1_copy2/box2
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy3
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy3/transform1
+Cooking... - Cooking Op:  level1_copy3/merge1
+Ready
+Cooking... - Cooking Op:  level1_copy3/box1
+Ready
+Cooking... - Cooking Op:  level1_copy3/box2
+Ready
+Cooking... - Cooking Op:  level1_copy3/box2
+Ready
+Cooking... - Cooking Op:  level1_copy3/box2
+Ready
+Cooking... - Cooking Op:  level1_copy3/box2
+Ready
+Cooking... - Cooking Op:  level1_copy3/box2
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy4
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy4/transform1
+Cooking... - Cooking Op:  level1_copy4/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy5/transform2
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy6/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy7
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy7/transform1
+Cooking... - Cooking Op:  level1_copy7/transform3
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy8
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy8/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy9/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy10
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy10/transform1
+Cooking... - Cooking Op:  level1_copy10/transform3
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy11/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy12
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy12/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy13
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy13/box1
+Cooking... - Cooking Op:  level1_copy13/transform3
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy14/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy15/merge1
+Cooking... - Convexing display geometry
+Ready
+Cooking... - Cooking Op:  level1_copy13/box3
+Ready
+Cooking... - Cooking Op:  level1_copy13/box3
+Ready
+Creating the node... - Loading level1_copy16
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy16/grid1
+Cooking... - Cooking Op:  level1_copy16/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy17
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy17/transform1
+Cooking... - Cooking Op:  level1_copy17/merge1
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Loading level1_copy18
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy18/transform1
+Cooking... - Cooking Op:  level1_copy18/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy19
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy19/transform1
+Cooking... - Cooking Op:  level1_copy19/merge1
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Loading level1_copy20
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy20/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy21/transform1
+Cooking... - Cooking Op:  level1_copy21/merge1
+Ready
+Creating the node... - Loading level1_copy22
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy22/transform1
+Cooking... - Cooking Op:  level1_copy22/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy23/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy24
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy24/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy25
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy25/transform1
+Cooking... - Cooking Op:  level1_copy25/merge1
+Ready
+Creating the node... - Loading level1_copy26
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy26/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy27
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy27/transform1
+Cooking... - Cooking Op:  level1_copy27/merge1
+Ready
+Creating the node... - Loading level1_copy28
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy28/transform1
+Cooking... - Cooking Op:  level1_copy28/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy29
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy29/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy30/transform1
+Cooking... - Cooking Op:  level1_copy30/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy31
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy31/transform1
+Cooking... - Cooking Op:  level1_copy31/merge1
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy32/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy33/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy34
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy34/transform1
+Cooking... - Cooking Op:  level1_copy34/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy35/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy36
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy36/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy37
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy37/box1
+Cooking... - Cooking Op:  level1_copy37/transform3
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy38
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy38/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy39
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy39/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy40
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy40/box1
+Cooking... - Cooking Op:  level1_copy40/transform3
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy41
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy41/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Loading level1_copy42
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy42/transform1
+Cooking... - Cooking Op:  level1_copy42/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy43
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy43/transform1
+Cooking... - Cooking Op:  level1_copy43/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy44/transform1
+Cooking... - Cooking Op:  level1_copy44/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy45/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy46
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy46/transform1
+Cooking... - Cooking Op:  level1_copy46/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy47/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy48
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy48/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy49
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy49/transform1
+Cooking... - Cooking Op:  level1_copy49/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy50/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Loading level1_copy51
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy51/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy52
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy52/transform1
+Cooking... - Cooking Op:  level1_copy52/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy53
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy53/transform1
+Cooking... - Cooking Op:  level1_copy53/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy54
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy54/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy55
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy55/transform1
+Cooking... - Cooking Op:  level1_copy55/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy56
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy56/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy57
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy57/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy58
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy58/transform1
+Cooking... - Cooking Op:  level1_copy58/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy59/transform1
+Ready
+Creating the node... - Loading level1_copy60
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy60/transform1
+Cooking... - Cooking Op:  level1_copy60/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy61
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy61/transform1
+Cooking... - Cooking Op:  level1_copy61/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy62
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy62/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy63
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy63/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy64
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy64/transform1
+Cooking... - Cooking Op:  level1_copy64/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy65
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy65/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy66
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy66/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy67
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy67/transform1
+Cooking... - Cooking Op:  level1_copy67/transform3
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy68
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy68/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy69
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy69/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy70
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy70/transform1
+Cooking... - Cooking Op:  level1_copy70/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy71/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy72/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy73
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy73/transform1
+Cooking... - Cooking Op:  level1_copy73/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy74/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy75/transform1
+Cooking... - Cooking Op:  level1_copy75/merge1
+Ready
+Creating the node... - Loading level1_copy76
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy76/transform1
+Cooking... - Cooking Op:  level1_copy76/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy77/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy78/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy79
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy79/transform1
+Cooking... - Cooking Op:  level1_copy79/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy80
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy80/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy81
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy81/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy82
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy82/transform1
+Cooking... - Cooking Op:  level1_copy82/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy83
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy83/transform1
+Cooking... - Cooking Op:  level1_copy83/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy84
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy84/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy85
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy85
+Cooking... - Cooking Op:  level1_copy85/transform2
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy86
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy86/transform1
+Cooking... - Cooking Op:  level1_copy86/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy87
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy87/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy88
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy88/transform1
+Cooking... - Cooking Op:  level1_copy88/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy89
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy89/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy90/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy91
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy91/transform1
+Cooking... - Cooking Op:  level1_copy91/transform3
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy92/transform1
+Cooking... - Cooking Op:  level1_copy92/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy93
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy93/transform1
+Cooking... - Cooking Op:  level1_copy93/merge1
+Ready
+Creating the node... - Loading level1_copy94
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy94/transform1
+Cooking... - Cooking Op:  level1_copy94/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy95/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy96/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy97
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy97/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy98/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy99
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy99/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy100
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy100/transform1
+Cooking... - Cooking Op:  level1_copy100/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy101
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy101/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy102
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy102/transform1
+Cooking... - Cooking Op:  level1_copy102/transform3
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy103
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy103/transform1
+Cooking... - Cooking Op:  level1_copy103/transform3
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy104/transform1
+Cooking... - Cooking Op:  level1_copy104/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy105/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy106
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy106/transform1
+Cooking... - Cooking Op:  level1_copy106/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy107
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy107
+Cooking... - Cooking Op:  level1_copy107/transform3
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy108/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy109
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy109/transform1
+Cooking... - Cooking Op:  level1_copy109/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy110/transform2
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy111
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy111/transform2
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy112
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy112/box1
+Cooking... - Cooking Op:  level1_copy112/transform3
+Ready
+Creating the node... - Loading level1_copy113
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy113/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy114
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy114/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy115
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy115/box1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy116
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy116/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy117/transform1
+Cooking... - Cooking Op:  level1_copy117/merge1
+Ready
+Creating the node... - Loading level1_copy118
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy118/transform1
+Cooking... - Cooking Op:  level1_copy118/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy119
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy119/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy120/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy121
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy121/transform1
+Cooking... - Cooking Op:  level1_copy121/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy122/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy123/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy124
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy124/transform1
+Cooking... - Cooking Op:  level1_copy124/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy125
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy125/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy126/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy127
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy127/transform1
+Cooking... - Cooking Op:  level1_copy127/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy128
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy128/transform2
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy129
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy129/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Run Hscript command
+Creating the node... - Loading lava1
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava1/transform1
+Ready
+Cooking... - Cooking Op:  lava1/transform1
+Ready
+Cooking... - Cooking Op:  lava1/transform1
+Ready
+Cooking... - Cooking Op:  lava1/transform1
+Ready
+Creating the node...
+Creating the node... - Loading lava2
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava2/transform1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy130
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy130/transform1
+Cooking... - Cooking Op:  level1_copy130/merge1
+Ready
+Creating the node... - Loading level1_copy131
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy131/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy132/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading lava3
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava3
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy133
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy133/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy134
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy134/transform1
+Cooking... - Cooking Op:  level1_copy134/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy135/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading lava4
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava4/transform1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy136
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy136/transform1
+Cooking... - Cooking Op:  level1_copy136/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy137/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy138/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading lava5
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava5/transform1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy139
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy139/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy140
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy140/transform1
+Cooking... - Cooking Op:  level1_copy140/merge1
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Loading level1_copy141
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy141/transform1
+Cooking... - Cooking Op:  level1_copy141/merge1
+Ready
+Creating the node...
+Creating the node... - Loading lava6
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava6/transform1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy142
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy142/transform1
+Cooking... - Cooking Op:  level1_copy142/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy143
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy143/transform1
+Cooking... - Cooking Op:  level1_copy143/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy144
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy144/transform1
+Cooking... - Cooking Op:  level1_copy144/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava7/transform1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy145
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy145
+Cooking... - Cooking Op:  level1_copy145/box3
+Ready
+Creating the node... - Loading level1_copy146
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy146/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy147/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading lava8
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava8/transform1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy148
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy148/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy149/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy150/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading lava9
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava9/transform1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy151
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy151/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy152
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy152/transform2
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy153
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy153/transform1
+Cooking... - Convexing display geometry
+Ready
+Unable to save session to file: {"_HAPISession":{"type":1,"id":2541170530640},"_serverProcessID":22328,"_initialized":true,"_pipeName":"hapi","_port":0,"_sessionClassType":"HoudiniEngineUnity.HEU_SessionHAPI","_isDefaultSession":true,"_sessionSync":{"_status":0,"_timeLastUpdate":0.0,"_timeStartConnection":0.0,"_newNodeName":"geo1","_nodeTypeIndex":0,"_validForConnection":false,"_viewportHAPI":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportLocal":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportJustUpdated":false,"_syncInfo":{"cookUsingHoudiniTime":false,"syncViewport":false}},"_connectionState":1,"_sessionMode":1};. Exception: System.IO.IOException: Sharing violation on path C:\Users\tgwar\Desktop\School\Repositories\Game-Dev\Platform_Game\heu_session.txt
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at HoudiniEngineUnity.HEU_Platform.WriteAllText (System.String path, System.String text) [0x00000] in C:\Users\tgwar\Desktop\School\Repositories\Game Dev\Platform_Game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_Platform.cs:460 
+Creating the node... - Loading lava10
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava10/transform1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy154
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy154/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy155
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy155/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy156
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy156/box2
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading lava11
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava11/transform1
+Ready
+Creating the node... - Loading level1_copy157
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy157/transform1
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy158/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy159
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy159/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading lava12
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava12/transform1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy160
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy160/transform1
+Cooking... - Cooking Op:  level1_copy160/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy161/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy162
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy162/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading lava13
+Creating the node... - Loading lava12
+Creating the node... - Loading lava11
+Creating the node... - Loading lava10
+Creating the node... - Loading lava9
+Creating the node... - Loading lava8
+Creating the node... - Loading lava7
+Creating the node... - Loading lava6
+Creating the node... - Loading lava5
+Creating the node... - Loading lava4
+Creating the node... - Loading lava3
+Creating the node... - Loading lava2
+Creating the node... - Loading lava1
+Creating the node... - Loading lava13
+Creating the node... - Run Hscript command
+Creating the node... - Loading lava13
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava13/box1
+Ready
+Creating the node...
+Creating the node... - Loading lava14
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava14/box1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy163
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy163/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy164/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy165
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy165/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading lava15
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava15/box1
+Ready
+Cooking... - Cooking Op:  lava15/box1
+Ready
+Cooking... - Cooking Op:  lava15/box1
+Ready
+Cooking... - Cooking Op:  lava15/box1
+Ready
+Cooking... - Cooking Op:  lava15/box1
+Ready
+Cooking... - Cooking Op:  lava15/box1
+Ready
+Cooking... - Cooking Op:  lava15/box1
+Ready
+Creating the node...
+Creating the node... - Loading lava16
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava16/box1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy166
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy166/transform1
+Cooking... - Cooking Op:  level1_copy166/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy167/box2
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy168/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading lava17
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava17/box1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy169
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy169/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy170
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy170/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy171/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading lava18
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava18/box1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy172
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy172/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy173
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy173/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy174
+Cooking... - Cooking Op:  level1_copy174/transform3
+Ready
+Creating the node...
+Creating the node... - Loading lava19
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava19/box1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy175
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy175/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy176/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy177
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy177/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading lava20
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava20/box1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy178
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy178/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy179
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy179/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy180/merge1
+Ready
+Creating the node...
+Creating the node... - Loading lava21
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava21/box1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy181
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy181/transform1
+Cooking... - Cooking Op:  level1_copy181/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy182/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy183/transform1
+Cooking... - Convexing display geometry
+Ready
+Unable to save session to file: {"_HAPISession":{"type":1,"id":2541170530640},"_serverProcessID":22328,"_initialized":true,"_pipeName":"hapi","_port":0,"_sessionClassType":"HoudiniEngineUnity.HEU_SessionHAPI","_isDefaultSession":true,"_sessionSync":{"_status":0,"_timeLastUpdate":0.0,"_timeStartConnection":0.0,"_newNodeName":"geo1","_nodeTypeIndex":0,"_validForConnection":false,"_viewportHAPI":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportLocal":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportJustUpdated":false,"_syncInfo":{"cookUsingHoudiniTime":false,"syncViewport":false}},"_connectionState":1,"_sessionMode":1};. Exception: System.IO.IOException: Sharing violation on path C:\Users\tgwar\Desktop\School\Repositories\Game-Dev\Platform_Game\heu_session.txt
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at HoudiniEngineUnity.HEU_Platform.WriteAllText (System.String path, System.String text) [0x00000] in C:\Users\tgwar\Desktop\School\Repositories\Game Dev\Platform_Game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_Platform.cs:460 
+Creating the node... - Loading lava22
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava22/box1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy184
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy184/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy185/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy186
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy186/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading lava23
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava23/box1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy187
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy187/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy188/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy189
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy189/transform1
+Cooking... - Cooking Op:  level1_copy189/merge1
+Ready
+Creating the node...
+Creating the node... - Loading lava24
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava24/box1
+Ready
+Creating the node...
+Creating the node... - Loading lava25
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava25/box1
+Ready
+Creating the node... - Loading lava26
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava26
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy190
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy190/transform1
+Cooking... - Cooking Op:  level1_copy190/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy191/box2
+Ready
+Creating the node... - Loading level1_copy192
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy192/merge1
+Ready
+Creating the node...
+Creating the node... - Loading lava27
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava27/box1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy193
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy193/transform1
+Cooking... - Cooking Op:  level1_copy193/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy194
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy194/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy195
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy195/transform1
+Cooking... - Cooking Op:  level1_copy195/merge1
+Ready
+Creating the node...
+Creating the node... - Loading lava28
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava28/box1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy196
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy196/transform1
+Cooking... - Cooking Op:  level1_copy196/transform3
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy197/transform2
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy198/transform1
+Cooking... - Cooking Op:  level1_copy198/merge1
+Ready
+Creating the node...
+Creating the node... - Loading lava29
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava29/box1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy199
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy199/transform1
+Cooking... - Cooking Op:  level1_copy199/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy200/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy201/transform1
+Cooking... - Convexing display geometry
+Ready
+Unable to save session to file: {"_HAPISession":{"type":1,"id":2541170530640},"_serverProcessID":22328,"_initialized":true,"_pipeName":"hapi","_port":0,"_sessionClassType":"HoudiniEngineUnity.HEU_SessionHAPI","_isDefaultSession":true,"_sessionSync":{"_status":0,"_timeLastUpdate":0.0,"_timeStartConnection":0.0,"_newNodeName":"geo1","_nodeTypeIndex":0,"_validForConnection":false,"_viewportHAPI":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportLocal":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportJustUpdated":false,"_syncInfo":{"cookUsingHoudiniTime":false,"syncViewport":false}},"_connectionState":1,"_sessionMode":1};. Exception: System.IO.IOException: Sharing violation on path C:\Users\tgwar\Desktop\School\Repositories\Game-Dev\Platform_Game\heu_session.txt
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at HoudiniEngineUnity.HEU_Platform.WriteAllText (System.String path, System.String text) [0x00000] in C:\Users\tgwar\Desktop\School\Repositories\Game Dev\Platform_Game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_Platform.cs:460 
+Creating the node... - Loading lava30
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava30/box1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy202
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy202/transform1
+Cooking... - Cooking Op:  level1_copy202/merge1
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy203/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy204/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading lava31
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava31/box1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy205
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy205/transform1
+Cooking... - Cooking Op:  level1_copy205/transform3
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy206/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy207/transform1
+Cooking... - Convexing display geometry
+Ready
+Cooking... - Cooking Op:  lava31/box1
+Ready
+Cooking... - Cooking Op:  lava31/box1
+Ready
+Cooking... - Cooking Op:  lava31/box1
+Ready
+Cooking... - Cooking Op:  lava31/box1
+Ready
+Cooking... - Cooking Op:  lava31/box1
+Ready
+Cooking... - Cooking Op:  lava31/box1
+Ready
+Creating the node...
+Creating the node... - Loading lava32
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava32/box1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy208
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy208/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy209/merge1
+Cooking... - Cooking Op:  level1_copy209/transform3
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy210
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy210/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading lava33
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava33/box1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy211
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy211/transform1
+Cooking... - Cooking Op:  level1_copy211/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy212
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy212/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy213/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading lava34
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava34/box1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy214
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy214/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy215/transform1
+Cooking... - Cooking Op:  level1_copy215/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy216
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy216/transform1
+Cooking... - Cooking Op:  level1_copy216/merge1
+Ready
+Creating the node...
+Creating the node... - Loading lava35
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava35/box1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy217
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy217/transform1
+Cooking... - Cooking Op:  level1_copy217/merge1
+Ready
+Creating the node... - Loading level1_copy218
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy218/box2
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy219/transform1
+Ready
+Unable to save session to file: {"_HAPISession":{"type":1,"id":2541170530640},"_serverProcessID":22328,"_initialized":true,"_pipeName":"hapi","_port":0,"_sessionClassType":"HoudiniEngineUnity.HEU_SessionHAPI","_isDefaultSession":true,"_sessionSync":{"_status":0,"_timeLastUpdate":0.0,"_timeStartConnection":0.0,"_newNodeName":"geo1","_nodeTypeIndex":0,"_validForConnection":false,"_viewportHAPI":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportLocal":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportJustUpdated":false,"_syncInfo":{"cookUsingHoudiniTime":false,"syncViewport":false}},"_connectionState":1,"_sessionMode":1};. Exception: System.IO.IOException: Sharing violation on path C:\Users\tgwar\Desktop\School\Repositories\Game-Dev\Platform_Game\heu_session.txt
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at HoudiniEngineUnity.HEU_Platform.WriteAllText (System.String path, System.String text) [0x00000] in C:\Users\tgwar\Desktop\School\Repositories\Game Dev\Platform_Game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_Platform.cs:460 
+Creating the node... - Loading lava36
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy220
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy220/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy221/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy222/box2
+Ready
+Creating the node...
+Creating the node... - Loading lava37
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava37/box1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy223
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy223/transform1
+Cooking... - Cooking Op:  level1_copy223/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy224/transform1
+Cooking... - Cooking Op:  level1_copy224/transform3
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy225
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy225/transform1
+Cooking... - Convexing display geometry
+Ready
+Unable to save session to file: {"_HAPISession":{"type":1,"id":2541170530640},"_serverProcessID":22328,"_initialized":true,"_pipeName":"hapi","_port":0,"_sessionClassType":"HoudiniEngineUnity.HEU_SessionHAPI","_isDefaultSession":true,"_sessionSync":{"_status":0,"_timeLastUpdate":0.0,"_timeStartConnection":0.0,"_newNodeName":"geo1","_nodeTypeIndex":0,"_validForConnection":false,"_viewportHAPI":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportLocal":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportJustUpdated":false,"_syncInfo":{"cookUsingHoudiniTime":false,"syncViewport":false}},"_connectionState":1,"_sessionMode":1};. Exception: System.IO.IOException: Sharing violation on path C:\Users\tgwar\Desktop\School\Repositories\Game-Dev\Platform_Game\heu_session.txt
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at HoudiniEngineUnity.HEU_Platform.WriteAllText (System.String path, System.String text) [0x00000] in C:\Users\tgwar\Desktop\School\Repositories\Game Dev\Platform_Game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_Platform.cs:460 
+Creating the node... - Loading lava38
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava38/box1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy226
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy226/transform1
+Cooking... - Cooking Op:  level1_copy226/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy227/merge1
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy228/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading lava39
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava39/box1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy229
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy229/transform1
+Cooking... - Cooking Op:  level1_copy229/merge1
+Ready
+Creating the node... - Loading level1_copy230
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy230/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy231/transform1
+Cooking... - Convexing display geometry
+Ready
+Unable to save session to file: {"_HAPISession":{"type":1,"id":2541170530640},"_serverProcessID":22328,"_initialized":true,"_pipeName":"hapi","_port":0,"_sessionClassType":"HoudiniEngineUnity.HEU_SessionHAPI","_isDefaultSession":true,"_sessionSync":{"_status":0,"_timeLastUpdate":0.0,"_timeStartConnection":0.0,"_newNodeName":"geo1","_nodeTypeIndex":0,"_validForConnection":false,"_viewportHAPI":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportLocal":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportJustUpdated":false,"_syncInfo":{"cookUsingHoudiniTime":false,"syncViewport":false}},"_connectionState":1,"_sessionMode":1};. Exception: System.IO.IOException: Sharing violation on path C:\Users\tgwar\Desktop\School\Repositories\Game-Dev\Platform_Game\heu_session.txt
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at HoudiniEngineUnity.HEU_Platform.WriteAllText (System.String path, System.String text) [0x00000] in C:\Users\tgwar\Desktop\School\Repositories\Game Dev\Platform_Game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_Platform.cs:460 
+Creating the node... - Loading lava40
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava40
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy232
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy232/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy233/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy234/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava41/box1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy235
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy235/transform1
+Cooking... - Cooking Op:  level1_copy235/merge1
+Ready
+Creating the node... - Loading level1_copy236
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy236/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy237
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy237/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading lava42
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava42/box1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy238
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy238/transform1
+Cooking... - Cooking Op:  level1_copy238/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy239
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy239/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading level1_copy240
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy240/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading lava43
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava43/box1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy241
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy241/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy242/merge1
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Updating Exports
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy243/transform1
+Cooking... - Convexing display geometry
+Ready
