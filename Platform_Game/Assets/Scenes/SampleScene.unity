@@ -48924,7 +48924,6 @@ GameObject:
   - component: {fileID: 1206657068}
   - component: {fileID: 1206657067}
   - component: {fileID: 1206657070}
-  - component: {fileID: 1206657069}
   - component: {fileID: 1206657071}
   - component: {fileID: 1206657072}
   m_Layer: 0
@@ -48999,19 +48998,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1206657069
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1206657065}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6f4d2292b05a224ba96dc21e1702162, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  holdTime: 0.00001
 --- !u!65 &1206657070
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -49052,6 +49038,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
         m_MethodName: SetTrigger
         m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Play
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1345993002}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -58051,7 +58049,7 @@ Transform:
   m_GameObject: {fileID: 1345993002}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15.53, y: 1.82, z: 0.04751396}
+  m_LocalPosition: {x: -11.64, y: -3.086, z: 0.04751396}
   m_LocalScale: {x: 0.4078, y: 0.4078, z: 0.4078}
   m_ConstrainProportionsScale: 0
   m_Children: []
