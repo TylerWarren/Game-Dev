@@ -1,12 +1,14 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "NewCharacterConfig", menuName = "Character/Character Config")]
+[CreateAssetMenu(fileName = "CharacterConfig", menuName = "Character/Character Config")]
 public class CharacterConfig : ScriptableObject
 {
     public string characterName;
-    public int health;
+    public int jump;
     public float speed;
-    public GameObject characterPrefab;
     public Sprite characterIcon;
-    public int attackPower;
+    public int lives;
+    public float jumpForce;
+    public float gravity;
+    
 }
