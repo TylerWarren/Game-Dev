@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NewCharacterConfig
   m_EditorClassIdentifier: 
   characterName: Player
-  jump: 2
+  jump: 1
   speed: 7
   characterIcon: {fileID: 0}
   lives: 5
