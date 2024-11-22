@@ -46,4 +46,5 @@ public class TriggerEventsBehaviour : MonoEventsBehaviour
         triggerExitEvent.Invoke();
         if (triggerExitAction != null) triggerExitAction.RaiseNoArgs();
     }
+    
 }
