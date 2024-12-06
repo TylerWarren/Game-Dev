@@ -486,6 +486,7 @@ GameObject:
   - component: {fileID: 1430924591}
   - component: {fileID: 1430924590}
   - component: {fileID: 1430924592}
+  - component: {fileID: 1430924595}
   - component: {fileID: 1430924594}
   m_Layer: 0
   m_Name: Player
@@ -550,7 +551,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 3
-  jumpForce: 5
+  jumpForce: 22.59
   gravity: 0
   maxJumps: 2147483647
   jumpEvent:
@@ -634,6 +635,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1430924595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1430924589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e65e50748e117b147891a05aa591e657, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2023682588
 PrefabInstance:
   m_ObjectHideFlags: 0

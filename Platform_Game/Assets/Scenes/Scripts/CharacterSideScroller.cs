@@ -1,80 +1,102 @@
 ﻿using UnityEngine;
+using UnityEngine.Events;
 
 public class CharacterSideScroller : MonoBehaviour
 {
-    public CharacterConfig characterConfig; // Reference to the ScriptableObject
+    public float moveSpeed = 5f;
+    public float jumpForce = 4f;
+    public float gravity = -9.81f;
+    public int maxJumps = 2;
 
     private CharacterController controller;
+    private Animator animator;
     private Vector3 velocity;
     private int jumpsRemaining;
+    private bool isMoving = false;
 
-    // Define class-level variables for movement properties
-    private float moveSpeed;
-    private float jumpForce;
-    private float gravity; // Updated to use the gravity from CharacterConfig
-    private int maxJumps;
+    public UnityEvent jumpEvent;
+    public UnityEvent runEvent;
+    public UnityEvent idleEvent;
+    public UnityEvent jumpEndEvent;
 
     private void Start()
     {
         controller = GetComponent<CharacterController>();
-
-        // Initialize the character's properties using CharacterConfig if it exists
-        if (characterConfig != null)
-        {
-            InitializeCharacterConfig();
-        }
-
-        // Set jumpsRemaining based on maxJumps from CharacterConfig
+        animator = GetComponent<Animator>();
         jumpsRemaining = maxJumps;
+
+        jumpEvent.AddListener(() => animator.SetTrigger("Jump"));
+        runEvent.AddListener(() => animator.SetBool("IsRunning", true));
+        idleEvent.AddListener(() => animator.SetBool("IsRunning", false));
+        jumpEndEvent.AddListener(() => animator.SetTrigger("Land")); // Transition to idle
     }
 
     private void Update()
     {
-        // Call methods for character movement and behavior
         HorizontalMovement();
         ApplyGravity();
         Jump();
         SetZPositionToZero();
 
-        // Apply all movement
         controller.Move(velocity * Time.deltaTime);
-    }
-
-    private void InitializeCharacterConfig()
-    {
-        // Use CharacterConfig values to set the character's properties
-        moveSpeed = characterConfig.speed;
-        jumpForce = characterConfig.jumpForce;
-        gravity = characterConfig.gravity; // Use gravity from the config
-        maxJumps = characterConfig.jump;
     }
 
     private void HorizontalMovement()
     {
         var moveInput = Input.GetAxis("Horizontal");
-        var moveDirection = new Vector3(moveInput, 0f, 0f) * moveSpeed;
-        velocity.x = moveDirection.x;
+        velocity.x = moveInput * moveSpeed;
+
+        // Flip the character based on movement direction
+        if (moveInput > 0.01f) // Moving right
+        {
+            transform.localRotation = Quaternion.Euler(0, 0, 0); // Face right
+        }
+        else if (moveInput < -0.01f) // Moving left
+        {
+            transform.localRotation = Quaternion.Euler(0, 180, 0); // Face left
+        }
+
+        // Handle animation events
+        if (Mathf.Abs(moveInput) > 0.01f)
+        {
+            if (!isMoving)
+            {
+                isMoving = true;
+                runEvent.Invoke();
+            }
+        }
+        else
+        {
+            if (isMoving)
+            {
+                isMoving = false;
+                idleEvent.Invoke();
+            }
+        }
     }
 
     private void ApplyGravity()
     {
         if (!controller.isGrounded)
         {
-            velocity.y += gravity * Time.deltaTime; // Apply gravity from the config
+            velocity.y += gravity * Time.deltaTime;
+            animator.SetBool("IsGrounded", false);
         }
         else
         {
             velocity.y = 0;
-            jumpsRemaining = maxJumps; // Reset jumps when grounded
+            jumpsRemaining = maxJumps;
+            animator.SetBool("IsGrounded", true);
         }
     }
 
     private void Jump()
     {
-        if (!Input.GetButtonDown("Jump") || (!controller.isGrounded && jumpsRemaining <= 0)) return;
+        if (!Input.GetButtonDown("Jump") || jumpsRemaining <= 0) return;
 
         velocity.y = Mathf.Sqrt(jumpForce * -2 * gravity);
         jumpsRemaining--;
+        jumpEvent.Invoke();
     }
 
     private void SetZPositionToZero()

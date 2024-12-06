@@ -46,6 +46,17 @@ public class CharacterSideScroller : MonoBehaviour
         var moveInput = Input.GetAxis("Horizontal");
         velocity.x = moveInput * moveSpeed;
 
+        // Flip the character based on movement direction
+        if (moveInput > 0.01f) // Moving right
+        {
+            transform.localRotation = Quaternion.Euler(0, -90, 0); // Face right
+        }
+        else if (moveInput < -0.01f) // Moving left
+        {
+            transform.localRotation = Quaternion.Euler(0, 90, 0); // Face left
+        }
+
+        // Handle animation events
         if (Mathf.Abs(moveInput) > 0.01f)
         {
             if (!isMoving)
@@ -62,7 +73,7 @@ public class CharacterSideScroller : MonoBehaviour
                 idleEvent.Invoke();
             }
         }
-    }
+    } 
 
     private void ApplyGravity()
     {
