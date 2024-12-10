@@ -17272,3 +17272,744 @@ Unable to save session to file: . Exception: System.IO.IOException: Sharing viol
   at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
   at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
   at HoudiniEngineUnity.HEU_Platform.WriteAllText (System.String path, System.String text) [0x00000] in C:\Users\tgwar\Desktop\School\Repositories\Game Dev\Platform_Game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_Platform.cs:460 
+Creating the node... - Run Hscript command
+Creating the node... - Loading lava1
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava1
+Cooking... - Cooking Op:  lava1/box1
+Cooking... - Convexing display geometry
+Ready
+Cooking... - Convexing display geometry
+Ready
+Creating the node... - Loading lava2
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava2/box1
+Ready
+Creating the node...
+Creating the node... - Loading lava3
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  lava3/box1
+Ready
+Unable to save session to file: . Exception: System.IO.IOException: Sharing violation on path C:\Users\tgwar\Desktop\School\Repositories\Game-Dev\Platform_Game\heu_session.txt
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at HoudiniEngineUnity.HEU_Platform.WriteAllText (System.String path, System.String text) [0x00000] in C:\Users\tgwar\Desktop\School\Repositories\Game Dev\Platform_Game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_Platform.cs:460 
+Unable to save session to file: . Exception: System.IO.IOException: Sharing violation on path C:\Users\tgwar\Desktop\School\Repositories\Game-Dev\Platform_Game\heu_session.txt
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at HoudiniEngineUnity.HEU_Platform.WriteAllText (System.String path, System.String text) [0x00000] in C:\Users\tgwar\Desktop\School\Repositories\Game Dev\Platform_Game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_Platform.cs:460 
+Creating the node... - Run Hscript command
+Creating the node... - Loading level1_copy1
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy1
+Cooking... - Cooking Op:  level1_copy1/grid1
+Cooking... - Cooking Op:  level1_copy1/box1
+Cooking... - Cooking Op:  level1_copy1/transform1
+Cooking... - Cooking Op:  level1_copy1/merge1
+Cooking... - Cooking Op:  level1_copy1/transform2
+Cooking... - Cooking Op:  level1_copy1/merge1
+Cooking... - Convexing display geometry
+Ready
+Cooking... - Cooking Op:  level1_copy1/merge1
+Ready
+Creating the node... - Loading level1_copy2
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy2/transform1
+Cooking... - Cooking Op:  level1_copy2/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy3
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy3/transform1
+Cooking... - Cooking Op:  level1_copy3/transform3
+Ready
+Creating the node... - Loading level1_copy4
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy4/transform1
+Cooking... - Cooking Op:  level1_copy4/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy5
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy5/box1
+Cooking... - Cooking Op:  level1_copy5/transform3
+Ready
+Creating the node... - Loading level1_copy6
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy6/transform1
+Cooking... - Cooking Op:  level1_copy6/transform3
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy7
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy7/transform1
+Cooking... - Cooking Op:  level1_copy7/transform3
+Ready
+Creating the node... - Loading level1_copy8
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy8/transform1
+Cooking... - Cooking Op:  level1_copy8/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy9
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy9/transform1
+Cooking... - Cooking Op:  level1_copy9/merge1
+Ready
+Creating the node... - Loading level1_copy10
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy10/transform1
+Cooking... - Cooking Op:  level1_copy10/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy11
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy11/box1
+Cooking... - Cooking Op:  level1_copy11/transform3
+Ready
+Creating the node... - Loading level1_copy12
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy12/transform1
+Cooking... - Cooking Op:  level1_copy12/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy13
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy13/transform1
+Cooking... - Cooking Op:  level1_copy13/merge1
+Ready
+Creating the node... - Loading level1_copy14
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy14/transform1
+Cooking... - Cooking Op:  level1_copy14/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy15
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy15/box1
+Cooking... - Cooking Op:  level1_copy15/transform3
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy16
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy16/transform1
+Cooking... - Cooking Op:  level1_copy16/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy17
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy17/transform1
+Cooking... - Cooking Op:  level1_copy17/merge1
+Ready
+Creating the node... - Loading level1_copy18
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy18/transform1
+Cooking... - Cooking Op:  level1_copy18/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy19
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy19/transform1
+Cooking... - Cooking Op:  level1_copy19/transform3
+Ready
+Unable to save session to file: {"_HAPISession":{"type":1,"id":1875788656544},"_serverProcessID":25980,"_initialized":true,"_pipeName":"hapi","_port":0,"_sessionClassType":"HoudiniEngineUnity.HEU_SessionHAPI","_isDefaultSession":true,"_sessionSync":{"_status":0,"_timeLastUpdate":0.0,"_timeStartConnection":0.0,"_newNodeName":"geo1","_nodeTypeIndex":0,"_validForConnection":false,"_viewportHAPI":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportLocal":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportJustUpdated":false,"_syncInfo":{"cookUsingHoudiniTime":false,"syncViewport":false}},"_connectionState":1,"_sessionMode":1};. Exception: System.IO.IOException: Sharing violation on path C:\Users\tgwar\Desktop\School\Repositories\Game-Dev\Platform_Game\heu_session.txt
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at HoudiniEngineUnity.HEU_Platform.WriteAllText (System.String path, System.String text) [0x00000] in C:\Users\tgwar\Desktop\School\Repositories\Game Dev\Platform_Game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_Platform.cs:460 
+Creating the node... - Loading level1_copy20
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy20/transform1
+Cooking... - Cooking Op:  level1_copy20/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy21
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy21/box1
+Cooking... - Cooking Op:  level1_copy21/transform3
+Ready
+Unable to save session to file: {"_HAPISession":{"type":1,"id":1875788656544},"_serverProcessID":25980,"_initialized":true,"_pipeName":"hapi","_port":0,"_sessionClassType":"HoudiniEngineUnity.HEU_SessionHAPI","_isDefaultSession":true,"_sessionSync":{"_status":0,"_timeLastUpdate":0.0,"_timeStartConnection":0.0,"_newNodeName":"geo1","_nodeTypeIndex":0,"_validForConnection":false,"_viewportHAPI":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportLocal":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportJustUpdated":false,"_syncInfo":{"cookUsingHoudiniTime":false,"syncViewport":false}},"_connectionState":1,"_sessionMode":1};. Exception: System.IO.IOException: Sharing violation on path C:\Users\tgwar\Desktop\School\Repositories\Game-Dev\Platform_Game\heu_session.txt
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at HoudiniEngineUnity.HEU_Platform.WriteAllText (System.String path, System.String text) [0x00000] in C:\Users\tgwar\Desktop\School\Repositories\Game Dev\Platform_Game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_Platform.cs:460 
+Creating the node... - Loading level1_copy22
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy22/transform1
+Cooking... - Cooking Op:  level1_copy22/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy23
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy23/transform1
+Cooking... - Cooking Op:  level1_copy23/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy23
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy23/transform1
+Cooking... - Cooking Op:  level1_copy23/transform3
+Ready
+Unable to save session to file: {"_HAPISession":{"type":1,"id":1875788656544},"_serverProcessID":25980,"_initialized":true,"_pipeName":"hapi","_port":0,"_sessionClassType":"HoudiniEngineUnity.HEU_SessionHAPI","_isDefaultSession":true,"_sessionSync":{"_status":0,"_timeLastUpdate":0.0,"_timeStartConnection":0.0,"_newNodeName":"geo1","_nodeTypeIndex":0,"_validForConnection":false,"_viewportHAPI":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportLocal":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportJustUpdated":false,"_syncInfo":{"cookUsingHoudiniTime":false,"syncViewport":false}},"_connectionState":1,"_sessionMode":1};. Exception: System.IO.IOException: Sharing violation on path C:\Users\tgwar\Desktop\School\Repositories\Game-Dev\Platform_Game\heu_session.txt
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at HoudiniEngineUnity.HEU_Platform.WriteAllText (System.String path, System.String text) [0x00000] in C:\Users\tgwar\Desktop\School\Repositories\Game Dev\Platform_Game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_Platform.cs:460 
+Creating the node...
+Creating the node... - Loading level1_copy24
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy24/transform1
+Cooking... - Cooking Op:  level1_copy24/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy25
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy25/box1
+Cooking... - Cooking Op:  level1_copy25/transform3
+Ready
+Creating the node... - Loading level1_copy26
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy26/transform1
+Cooking... - Cooking Op:  level1_copy26/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy27
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy27/transform1
+Cooking... - Cooking Op:  level1_copy27/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy27
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy27/transform1
+Cooking... - Cooking Op:  level1_copy27/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy27
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy27/box1
+Cooking... - Cooking Op:  level1_copy27/merge1
+Ready
+Unable to save session to file: {"_HAPISession":{"type":1,"id":1875788656544},"_serverProcessID":25980,"_initialized":true,"_pipeName":"hapi","_port":0,"_sessionClassType":"HoudiniEngineUnity.HEU_SessionHAPI","_isDefaultSession":true,"_sessionSync":{"_status":0,"_timeLastUpdate":0.0,"_timeStartConnection":0.0,"_newNodeName":"geo1","_nodeTypeIndex":0,"_validForConnection":false,"_viewportHAPI":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportLocal":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportJustUpdated":false,"_syncInfo":{"cookUsingHoudiniTime":false,"syncViewport":false}},"_connectionState":1,"_sessionMode":1};. Exception: System.IO.IOException: Sharing violation on path C:\Users\tgwar\Desktop\School\Repositories\Game-Dev\Platform_Game\heu_session.txt
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at HoudiniEngineUnity.HEU_Platform.WriteAllText (System.String path, System.String text) [0x00000] in C:\Users\tgwar\Desktop\School\Repositories\Game Dev\Platform_Game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_Platform.cs:460 
+Creating the node... - Loading level1_copy28
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy28/transform1
+Cooking... - Cooking Op:  level1_copy28/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy29
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy29/transform1
+Cooking... - Cooking Op:  level1_copy29/merge1
+Ready
+Creating the node... - Loading level1_copy30
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy30/transform1
+Cooking... - Cooking Op:  level1_copy30/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy31
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy31/transform1
+Cooking... - Cooking Op:  level1_copy31/merge1
+Ready
+Unable to save session to file: {"_HAPISession":{"type":1,"id":1875788656544},"_serverProcessID":25980,"_initialized":true,"_pipeName":"hapi","_port":0,"_sessionClassType":"HoudiniEngineUnity.HEU_SessionHAPI","_isDefaultSession":true,"_sessionSync":{"_status":0,"_timeLastUpdate":0.0,"_timeStartConnection":0.0,"_newNodeName":"geo1","_nodeTypeIndex":0,"_validForConnection":false,"_viewportHAPI":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportLocal":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportJustUpdated":false,"_syncInfo":{"cookUsingHoudiniTime":false,"syncViewport":false}},"_connectionState":1,"_sessionMode":1};. Exception: System.IO.IOException: Sharing violation on path C:\Users\tgwar\Desktop\School\Repositories\Game-Dev\Platform_Game\heu_session.txt
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at HoudiniEngineUnity.HEU_Platform.WriteAllText (System.String path, System.String text) [0x00000] in C:\Users\tgwar\Desktop\School\Repositories\Game Dev\Platform_Game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_Platform.cs:460 
+Creating the node...
+Creating the node... - Loading level1_copy32
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy32/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy33
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy33/box1
+Cooking... - Cooking Op:  level1_copy33/transform3
+Ready
+Unable to save session to file: {"_HAPISession":{"type":1,"id":1875788656544},"_serverProcessID":25980,"_initialized":true,"_pipeName":"hapi","_port":0,"_sessionClassType":"HoudiniEngineUnity.HEU_SessionHAPI","_isDefaultSession":true,"_sessionSync":{"_status":0,"_timeLastUpdate":0.0,"_timeStartConnection":0.0,"_newNodeName":"geo1","_nodeTypeIndex":0,"_validForConnection":false,"_viewportHAPI":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportLocal":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportJustUpdated":false,"_syncInfo":{"cookUsingHoudiniTime":false,"syncViewport":false}},"_connectionState":1,"_sessionMode":1};. Exception: System.IO.IOException: Sharing violation on path C:\Users\tgwar\Desktop\School\Repositories\Game-Dev\Platform_Game\heu_session.txt
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at HoudiniEngineUnity.HEU_Platform.WriteAllText (System.String path, System.String text) [0x00000] in C:\Users\tgwar\Desktop\School\Repositories\Game Dev\Platform_Game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_Platform.cs:460 
+Creating the node...
+Creating the node... - Updating Exports
+Creating the node... - Loading level1_copy34
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy34/transform1
+Cooking... - Cooking Op:  level1_copy34/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy35
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy35/transform1
+Cooking... - Cooking Op:  level1_copy35/merge1
+Ready
+Unable to save session to file: {"_HAPISession":{"type":1,"id":1875788656544},"_serverProcessID":25980,"_initialized":true,"_pipeName":"hapi","_port":0,"_sessionClassType":"HoudiniEngineUnity.HEU_SessionHAPI","_isDefaultSession":true,"_sessionSync":{"_status":0,"_timeLastUpdate":0.0,"_timeStartConnection":0.0,"_newNodeName":"geo1","_nodeTypeIndex":0,"_validForConnection":false,"_viewportHAPI":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportLocal":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportJustUpdated":false,"_syncInfo":{"cookUsingHoudiniTime":false,"syncViewport":false}},"_connectionState":1,"_sessionMode":1};. Exception: System.IO.IOException: Sharing violation on path C:\Users\tgwar\Desktop\School\Repositories\Game-Dev\Platform_Game\heu_session.txt
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at HoudiniEngineUnity.HEU_Platform.WriteAllText (System.String path, System.String text) [0x00000] in C:\Users\tgwar\Desktop\School\Repositories\Game Dev\Platform_Game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_Platform.cs:460 
+Creating the node... - Loading level1_copy36
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy36/transform1
+Cooking... - Cooking Op:  level1_copy36/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy37
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy37/box1
+Cooking... - Cooking Op:  level1_copy37/transform3
+Ready
+Unable to save session to file: {"_HAPISession":{"type":1,"id":1875788656544},"_serverProcessID":25980,"_initialized":true,"_pipeName":"hapi","_port":0,"_sessionClassType":"HoudiniEngineUnity.HEU_SessionHAPI","_isDefaultSession":true,"_sessionSync":{"_status":0,"_timeLastUpdate":0.0,"_timeStartConnection":0.0,"_newNodeName":"geo1","_nodeTypeIndex":0,"_validForConnection":false,"_viewportHAPI":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportLocal":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportJustUpdated":false,"_syncInfo":{"cookUsingHoudiniTime":false,"syncViewport":false}},"_connectionState":1,"_sessionMode":1};. Exception: System.IO.IOException: Sharing violation on path C:\Users\tgwar\Desktop\School\Repositories\Game-Dev\Platform_Game\heu_session.txt
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at HoudiniEngineUnity.HEU_Platform.WriteAllText (System.String path, System.String text) [0x00000] in C:\Users\tgwar\Desktop\School\Repositories\Game Dev\Platform_Game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_Platform.cs:460 
+Creating the node... - Loading level1_copy38
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy38/transform1
+Cooking... - Cooking Op:  level1_copy38/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy39
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy39/transform1
+Cooking... - Cooking Op:  level1_copy39/transform3
+Ready
+Unable to save session to file: {"_HAPISession":{"type":1,"id":1875788656544},"_serverProcessID":25980,"_initialized":true,"_pipeName":"hapi","_port":0,"_sessionClassType":"HoudiniEngineUnity.HEU_SessionHAPI","_isDefaultSession":true,"_sessionSync":{"_status":0,"_timeLastUpdate":0.0,"_timeStartConnection":0.0,"_newNodeName":"geo1","_nodeTypeIndex":0,"_validForConnection":false,"_viewportHAPI":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportLocal":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportJustUpdated":false,"_syncInfo":{"cookUsingHoudiniTime":false,"syncViewport":false}},"_connectionState":1,"_sessionMode":1};. Exception: System.IO.IOException: Sharing violation on path C:\Users\tgwar\Desktop\School\Repositories\Game-Dev\Platform_Game\heu_session.txt
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at HoudiniEngineUnity.HEU_Platform.WriteAllText (System.String path, System.String text) [0x00000] in C:\Users\tgwar\Desktop\School\Repositories\Game Dev\Platform_Game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_Platform.cs:460 
+Creating the node... - Loading level1_copy40
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy40/transform1
+Cooking... - Cooking Op:  level1_copy40/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy41
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy41/transform1
+Cooking... - Cooking Op:  level1_copy41/merge1
+Ready
+Unable to save session to file: {"_HAPISession":{"type":1,"id":1875788656544},"_serverProcessID":25980,"_initialized":true,"_pipeName":"hapi","_port":0,"_sessionClassType":"HoudiniEngineUnity.HEU_SessionHAPI","_isDefaultSession":true,"_sessionSync":{"_status":0,"_timeLastUpdate":0.0,"_timeStartConnection":0.0,"_newNodeName":"geo1","_nodeTypeIndex":0,"_validForConnection":false,"_viewportHAPI":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportLocal":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportJustUpdated":false,"_syncInfo":{"cookUsingHoudiniTime":false,"syncViewport":false}},"_connectionState":1,"_sessionMode":1};. Exception: System.IO.IOException: Sharing violation on path C:\Users\tgwar\Desktop\School\Repositories\Game-Dev\Platform_Game\heu_session.txt
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at HoudiniEngineUnity.HEU_Platform.WriteAllText (System.String path, System.String text) [0x00000] in C:\Users\tgwar\Desktop\School\Repositories\Game Dev\Platform_Game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_Platform.cs:460 
+Creating the node... - Loading level1_copy42
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy42/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy43
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy43/box1
+Cooking... - Cooking Op:  level1_copy43/transform3
+Ready
+Unable to save session to file: {"_HAPISession":{"type":1,"id":1875788656544},"_serverProcessID":25980,"_initialized":true,"_pipeName":"hapi","_port":0,"_sessionClassType":"HoudiniEngineUnity.HEU_SessionHAPI","_isDefaultSession":true,"_sessionSync":{"_status":0,"_timeLastUpdate":0.0,"_timeStartConnection":0.0,"_newNodeName":"geo1","_nodeTypeIndex":0,"_validForConnection":false,"_viewportHAPI":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportLocal":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportJustUpdated":false,"_syncInfo":{"cookUsingHoudiniTime":false,"syncViewport":false}},"_connectionState":1,"_sessionMode":1};. Exception: System.IO.IOException: Sharing violation on path C:\Users\tgwar\Desktop\School\Repositories\Game-Dev\Platform_Game\heu_session.txt
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at HoudiniEngineUnity.HEU_Platform.WriteAllText (System.String path, System.String text) [0x00000] in C:\Users\tgwar\Desktop\School\Repositories\Game Dev\Platform_Game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_Platform.cs:460 
+Creating the node...
+Creating the node... - Loading level1_copy44
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy44/transform1
+Cooking... - Cooking Op:  level1_copy44/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy45
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy45/transform1
+Cooking... - Cooking Op:  level1_copy45/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy45
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy45/transform1
+Cooking... - Cooking Op:  level1_copy45/merge1
+Ready
+Unable to save session to file: {"_HAPISession":{"type":1,"id":1875788656544},"_serverProcessID":25980,"_initialized":true,"_pipeName":"hapi","_port":0,"_sessionClassType":"HoudiniEngineUnity.HEU_SessionHAPI","_isDefaultSession":true,"_sessionSync":{"_status":0,"_timeLastUpdate":0.0,"_timeStartConnection":0.0,"_newNodeName":"geo1","_nodeTypeIndex":0,"_validForConnection":false,"_viewportHAPI":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportLocal":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportJustUpdated":false,"_syncInfo":{"cookUsingHoudiniTime":false,"syncViewport":false}},"_connectionState":1,"_sessionMode":1};. Exception: System.IO.IOException: Sharing violation on path C:\Users\tgwar\Desktop\School\Repositories\Game-Dev\Platform_Game\heu_session.txt
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at HoudiniEngineUnity.HEU_Platform.WriteAllText (System.String path, System.String text) [0x00000] in C:\Users\tgwar\Desktop\School\Repositories\Game Dev\Platform_Game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_Platform.cs:460 
+Creating the node...
+Creating the node... - Updating Exports
+Creating the node... - Loading level1_copy46
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy46/transform1
+Cooking... - Cooking Op:  level1_copy46/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy47
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy47/grid1
+Cooking... - Cooking Op:  level1_copy47/transform3
+Ready
+Creating the node... - Loading level1_copy48
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy48/transform1
+Cooking... - Cooking Op:  level1_copy48/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy49
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy49/transform1
+Cooking... - Cooking Op:  level1_copy49/merge1
+Ready
+Unable to save session to file: {"_HAPISession":{"type":1,"id":1875788656544},"_serverProcessID":25980,"_initialized":true,"_pipeName":"hapi","_port":0,"_sessionClassType":"HoudiniEngineUnity.HEU_SessionHAPI","_isDefaultSession":true,"_sessionSync":{"_status":0,"_timeLastUpdate":0.0,"_timeStartConnection":0.0,"_newNodeName":"geo1","_nodeTypeIndex":0,"_validForConnection":false,"_viewportHAPI":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportLocal":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportJustUpdated":false,"_syncInfo":{"cookUsingHoudiniTime":false,"syncViewport":false}},"_connectionState":1,"_sessionMode":1};. Exception: System.IO.IOException: Sharing violation on path C:\Users\tgwar\Desktop\School\Repositories\Game-Dev\Platform_Game\heu_session.txt
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at HoudiniEngineUnity.HEU_Platform.WriteAllText (System.String path, System.String text) [0x00000] in C:\Users\tgwar\Desktop\School\Repositories\Game Dev\Platform_Game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_Platform.cs:460 
+Creating the node...
+Creating the node... - Loading level1_copy50
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy50/transform1
+Cooking... - Cooking Op:  level1_copy50/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy51
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy51/transform1
+Cooking... - Cooking Op:  level1_copy51/transform3
+Ready
+Unable to save session to file: {"_HAPISession":{"type":1,"id":1875788656544},"_serverProcessID":25980,"_initialized":true,"_pipeName":"hapi","_port":0,"_sessionClassType":"HoudiniEngineUnity.HEU_SessionHAPI","_isDefaultSession":true,"_sessionSync":{"_status":0,"_timeLastUpdate":0.0,"_timeStartConnection":0.0,"_newNodeName":"geo1","_nodeTypeIndex":0,"_validForConnection":false,"_viewportHAPI":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportLocal":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportJustUpdated":false,"_syncInfo":{"cookUsingHoudiniTime":false,"syncViewport":false}},"_connectionState":1,"_sessionMode":1};. Exception: System.IO.IOException: Sharing violation on path C:\Users\tgwar\Desktop\School\Repositories\Game-Dev\Platform_Game\heu_session.txt
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at HoudiniEngineUnity.HEU_Platform.WriteAllText (System.String path, System.String text) [0x00000] in C:\Users\tgwar\Desktop\School\Repositories\Game Dev\Platform_Game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_Platform.cs:460 
+Creating the node... - Loading level1_copy52
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy52/transform1
+Cooking... - Cooking Op:  level1_copy52/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy53
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy53/grid1
+Cooking... - Cooking Op:  level1_copy53/transform3
+Ready
+Unable to save session to file: {"_HAPISession":{"type":1,"id":1875788656544},"_serverProcessID":25980,"_initialized":true,"_pipeName":"hapi","_port":0,"_sessionClassType":"HoudiniEngineUnity.HEU_SessionHAPI","_isDefaultSession":true,"_sessionSync":{"_status":0,"_timeLastUpdate":0.0,"_timeStartConnection":0.0,"_newNodeName":"geo1","_nodeTypeIndex":0,"_validForConnection":false,"_viewportHAPI":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportLocal":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportJustUpdated":false,"_syncInfo":{"cookUsingHoudiniTime":false,"syncViewport":false}},"_connectionState":1,"_sessionMode":1};. Exception: System.IO.IOException: Sharing violation on path C:\Users\tgwar\Desktop\School\Repositories\Game-Dev\Platform_Game\heu_session.txt
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at HoudiniEngineUnity.HEU_Platform.WriteAllText (System.String path, System.String text) [0x00000] in C:\Users\tgwar\Desktop\School\Repositories\Game Dev\Platform_Game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_Platform.cs:460 
+Creating the node... - Loading level1_copy54
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy54/transform1
+Cooking... - Cooking Op:  level1_copy54/transform3
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy55
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy55/transform1
+Cooking... - Cooking Op:  level1_copy55/merge1
+Ready
+Creating the node... - Loading level1_copy56
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy56/transform1
+Cooking... - Cooking Op:  level1_copy56/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy57
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy57/transform1
+Cooking... - Cooking Op:  level1_copy57/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy58
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy58/transform1
+Cooking... - Cooking Op:  level1_copy58/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy59
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy59/transform1
+Cooking... - Cooking Op:  level1_copy59/merge1
+Ready
+Creating the node... - Run Hscript command
+Creating the node... - Updating Exports
+Creating the node... - Loading level_wall1
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall1/box2
+Cooking... - Cooking Op:  level_wall1/merge1
+Ready
+Cooking... - Cooking Op:  level_wall1/box1
+Ready
+Cooking... - Cooking Op:  level_wall1/transform1
+Ready
+Cooking... - Cooking Op:  level_wall1/transform2
+Ready
+Cooking... - Cooking Op:  level_wall1/box2
+Ready
+Cooking... - Cooking Op:  level_wall1/box2
+Ready
+Unable to save session to file: {"_HAPISession":{"type":1,"id":1875788656544},"_serverProcessID":25980,"_initialized":true,"_pipeName":"hapi","_port":0,"_sessionClassType":"HoudiniEngineUnity.HEU_SessionHAPI","_isDefaultSession":true,"_sessionSync":{"_status":0,"_timeLastUpdate":0.0,"_timeStartConnection":0.0,"_newNodeName":"geo1","_nodeTypeIndex":0,"_validForConnection":false,"_viewportHAPI":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportLocal":{"position":[0.0,0.0,0.0],"rotationQuaternion":[0.0,0.0,0.0,0.0],"offset":0.0},"_viewportJustUpdated":false,"_syncInfo":{"cookUsingHoudiniTime":false,"syncViewport":false}},"_connectionState":1,"_sessionMode":1};. Exception: System.IO.IOException: Sharing violation on path C:\Users\tgwar\Desktop\School\Repositories\Game-Dev\Platform_Game\heu_session.txt
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+  at HoudiniEngineUnity.HEU_Platform.WriteAllText (System.String path, System.String text) [0x00000] in C:\Users\tgwar\Desktop\School\Repositories\Game Dev\Platform_Game\Assets\Plugins\HoudiniEngineUnity\Scripts\Core\HEU_Platform.cs:460 
+Creating the node... - Loading level_wall2
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall2/transform2
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy60
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy60/transform1
+Cooking... - Convexing display geometry
+Ready
+Creating the node...
+Creating the node... - Loading level_wall3
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall3/transform2
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy61
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy61/transform1
+Cooking... - Cooking Op:  level1_copy61/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level1_copy61
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level1_copy61/box1
+Cooking... - Cooking Op:  level1_copy61/merge1
+Ready
+Creating the node...
+Creating the node... - Loading level_wall3
+Creating the node... - Run Hscript command
+Ready
+Cooking...
+Cooking... - Cooking Op:  level_wall3/transform2
+Ready
