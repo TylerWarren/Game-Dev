@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CharacterSideScroller : MonoBehaviour
 {
@@ -10,6 +11,9 @@ public class CharacterSideScroller : MonoBehaviour
     private CharacterController controller;
     private Vector3 velocity;
     private int jumpsRemaining;
+    private bool moveLeft = false;
+    private bool moveRight = false;
+    private bool isJumping = false;
 
     private void Start()
     {
@@ -19,8 +23,7 @@ public class CharacterSideScroller : MonoBehaviour
 
     private void Update()
     {
-        // Calling our methods
-        HorizontalMovement();
+        HandleMovement();
         ApplyGravity();
         Jump();
         SetZPositionToZero();
@@ -29,11 +32,20 @@ public class CharacterSideScroller : MonoBehaviour
         controller.Move(velocity * Time.deltaTime);
     }
 
-    private void HorizontalMovement()
+    private void HandleMovement()
     {
-        var moveInput = Input.GetAxis("Horizontal");
-        var moveDirection = new Vector3(moveInput, 0f, 0f) * moveSpeed;
-        velocity.x = moveDirection.x;
+        if (moveLeft)
+        {
+            velocity.x = -moveSpeed;
+        }
+        else if (moveRight)
+        {
+            velocity.x = moveSpeed;
+        }
+        else
+        {
+            velocity.x = 0;
+        }
     }
 
     private void ApplyGravity()
@@ -51,9 +63,10 @@ public class CharacterSideScroller : MonoBehaviour
 
     private void Jump()
     {
-        if (!Input.GetButton("Jump") || (!controller.isGrounded && jumpsRemaining <= 0)) return;
+        if (!isJumping || (!controller.isGrounded && jumpsRemaining <= 0)) return;
         velocity.y = Mathf.Sqrt(jumpForce * -2 * gravity);
         jumpsRemaining--;
+        isJumping = false;
     }
 
     private void SetZPositionToZero()
@@ -62,5 +75,31 @@ public class CharacterSideScroller : MonoBehaviour
         var position = transform1.position;
         position.z = 0;
         transform1.position = position;
+    }
+
+    // UI Button Methods
+    public void OnLeftButtonDown()
+    {
+        moveLeft = true;
+    }
+
+    public void OnLeftButtonUp()
+    {
+        moveLeft = false;
+    }
+
+    public void OnRightButtonDown()
+    {
+        moveRight = true;
+    }
+
+    public void OnRightButtonUp()
+    {
+        moveRight = false;
+    }
+
+    public void OnJumpButtonDown()
+    {
+        isJumping = true;
     }
 }
