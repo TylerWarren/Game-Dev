@@ -102,4 +102,13 @@ public class CharacterSideScroller : MonoBehaviour
     {
         isJumping = true;
     }
+    private void FixedUpdate()
+    {
+        HandleMovement();
+        ApplyGravity();
+        Jump();
+        SetZPositionToZero();
+
+        controller.Move(velocity * Time.fixedDeltaTime); // Use fixedDeltaTime instead of deltaTime
+    }
 }
