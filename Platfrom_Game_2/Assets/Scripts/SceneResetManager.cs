@@ -1,10 +1,12 @@
 using GameActions;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class SceneResetManager : MonoBehaviour
 {
     [SerializeField] private GameAction restartGameAction; // Assign in Inspector
+    [SerializeField] private float respawnDelay = 5.0f; // ⏳ Customizable delay
 
     private void OnEnable()
     {
@@ -29,12 +31,25 @@ public class SceneResetManager : MonoBehaviour
     {
         if (obj is GameObject player)
         {
-            Debug.Log($"Player {player.name} was killed. Restarting scene...");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            Debug.Log($"Player {player.name} was killed. Respawning in {respawnDelay} seconds...");
+            StartCoroutine(RespawnAfterDelay());
         }
         else
         {
             Debug.LogError("GameAction was triggered, but the object is not a GameObject!");
         }
+    }
+
+    private IEnumerator RespawnAfterDelay()
+    {
+        yield return new WaitForSeconds(respawnDelay);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    // ✅ Make the delay configurable via GameActionHandler
+    public void SetRespawnDelay(float delay)
+    {
+        respawnDelay = delay;
+        Debug.Log($"Respawn delay updated to {respawnDelay} seconds.");
     }
 }

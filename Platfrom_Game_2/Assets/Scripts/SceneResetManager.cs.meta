@@ -4,7 +4,7 @@ MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - restartGameAction: {fileID: 11400000, guid: 0d14cfcf258db4b459eb2362387a3087, type: 2}
+  - restartGameAction: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
