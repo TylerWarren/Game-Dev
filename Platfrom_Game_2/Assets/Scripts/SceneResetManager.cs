@@ -6,7 +6,7 @@ using System.Collections;
 public class SceneResetManager : MonoBehaviour
 {
     [SerializeField] private GameAction restartGameAction; // Assign in Inspector
-    [SerializeField] private float respawnDelay = 5.0f; // ⏳ Customizable delay
+    [SerializeField] private float defaultRespawnDelay = 5.0f; // Default delay
 
     private void OnEnable()
     {
@@ -16,7 +16,7 @@ public class SceneResetManager : MonoBehaviour
             return;
         }
 
-        restartGameAction.Raise += OnPlayerKilled; // Subscribe to GameAction with object parameter
+        restartGameAction.Raise += OnPlayerKilled;
     }
 
     private void OnDisable()
@@ -31,8 +31,16 @@ public class SceneResetManager : MonoBehaviour
     {
         if (obj is GameObject player)
         {
-            Debug.Log($"Player {player.name} was killed. Respawning in {respawnDelay} seconds...");
-            StartCoroutine(RespawnAfterDelay());
+            float delay = defaultRespawnDelay;
+
+            // Check if the event parameter contains a delay (optional)
+            if (obj is RespawnData respawnData)
+            {
+                delay = respawnData.RespawnDelay;
+            }
+
+            Debug.Log($"Player {player.name} was killed. Respawning in {delay} seconds...");
+            StartCoroutine(RespawnAfterDelay(delay));
         }
         else
         {
@@ -40,16 +48,27 @@ public class SceneResetManager : MonoBehaviour
         }
     }
 
-    private IEnumerator RespawnAfterDelay()
+    private IEnumerator RespawnAfterDelay(float delay)
     {
-        yield return new WaitForSeconds(respawnDelay);
+        yield return new WaitForSeconds(delay);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
-    // ✅ Make the delay configurable via GameActionHandler
+    // ✅ Update delay dynamically
     public void SetRespawnDelay(float delay)
     {
-        respawnDelay = delay;
-        Debug.Log($"Respawn delay updated to {respawnDelay} seconds.");
+        defaultRespawnDelay = delay;
+        Debug.Log($"Respawn delay updated to {defaultRespawnDelay} seconds.");
+    }
+}
+
+// ✅ Helper class to pass a dynamic delay
+public class RespawnData
+{
+    public float RespawnDelay { get; private set; }
+
+    public RespawnData(float delay)
+    {
+        RespawnDelay = delay;
     }
 }

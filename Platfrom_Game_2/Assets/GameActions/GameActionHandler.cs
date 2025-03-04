@@ -6,14 +6,7 @@ using UnityEngine.Events;
 public class GameActionHandler : MonoBehaviour
 {
     public GameAction action;
-    public UnityEvent startEvent, respondEvent, respondLateEvent;
-    public float holdTime = 5.0f; // ⏳ Set delay to 5 seconds
-    private WaitForSeconds waitObj;
-
-    private void Awake()
-    {
-        waitObj = new WaitForSeconds(holdTime);
-    }
+    public UnityEvent startEvent, respondEvent; 
 
     private void Start()
     {
@@ -39,12 +32,6 @@ public class GameActionHandler : MonoBehaviour
         if (action != null)
             action.RaiseNoArgs -= Respond;
     }
-    
-    private IEnumerator RespondLate()
-    {
-        yield return waitObj;
-        InvokeEvent(respondLateEvent);
-    }
 
     private void OnDestroy()
     {
@@ -55,16 +42,5 @@ public class GameActionHandler : MonoBehaviour
     private void Respond()
     {
         InvokeEvent(respondEvent);
-
-        if (!gameObject.activeInHierarchy) return;
-    
-        // Set custom respawn delay before starting coroutine
-        SceneResetManager sceneResetManager = FindObjectOfType<SceneResetManager>();
-        if (sceneResetManager != null)
-        {
-            sceneResetManager.SetRespawnDelay(holdTime);
-        }
-
-        StartCoroutine(RespondLate());
     }
 }
