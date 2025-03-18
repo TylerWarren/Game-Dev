@@ -1,121 +1,75 @@
 using System.Collections.Generic;
-using UnityEngine;
 using System.IO;
+using UnityEngine;
 
-[CreateAssetMenu(fileName = "DataStorage", menuName = "Utilities/Data Storage Object")]
-public class DataStorage : ScriptableObject
+public static class DataStorage
 {
-    public ScriptableObject data;
-    public List<ScriptableObject> listData;
+    private static string filePath = Application.persistentDataPath + "/gameSave.json";
+    private static Dictionary<string, Dictionary<string, object>> gameData = new Dictionary<string, Dictionary<string, object>>();
 
-    private string GetFilePath(string fileName) => Application.persistentDataPath + $"/{fileName}.json";
-
-    // Save to PlayerPrefs (for small data)
-    private void SaveDataToPrefs<T>(T obj) where T : Object
+    public static void SaveData(string key, Dictionary<string, object> data)
     {
-        if (obj == null) return;
-        PlayerPrefs.SetString(obj.name, JsonUtility.ToJson(obj));
+        gameData[key] = data;
+        SaveToFile();
     }
 
-    private void LoadDataFromPrefs<T>(T obj) where T : Object
+    public static Dictionary<string, object> LoadData(string key)
     {
-        if (obj == null) return;
-        string jsonData = PlayerPrefs.GetString(obj.name, "");
-        if (!string.IsNullOrEmpty(jsonData))
-        {
-            JsonUtility.FromJsonOverwrite(jsonData, obj);
-        }
+        LoadFromFile();
+        return gameData.ContainsKey(key) ? gameData[key] : null;
     }
 
-    // Save to JSON File (for larger data)
-    private void SaveDataToFile<T>(T obj) where T : Object
-    {
-        if (obj == null) return;
-        string path = GetFilePath(obj.name);
-        string json = JsonUtility.ToJson(obj, true);
-        File.WriteAllText(path, json);
-    }
-
-    private void LoadDataFromFile<T>(T obj) where T : Object
-    {
-        if (obj == null) return;
-        string path = GetFilePath(obj.name);
-        if (File.Exists(path))
-        {
-            string json = File.ReadAllText(path);
-            JsonUtility.FromJsonOverwrite(json, obj);
-        }
-    }
-
-    // Save all data
-    public void SaveAllData(bool useFileStorage = false)
+    public static void SaveAllData(bool useFileStorage)
     {
         if (useFileStorage)
-        {
-            SaveDataToFile(data);
-            foreach (var obj in listData)
-            {
-                SaveDataToFile(obj);
-            }
-        }
-        else
-        {
-            SaveDataToPrefs(data);
-            foreach (var obj in listData)
-            {
-                SaveDataToPrefs(obj);
-            }
-            PlayerPrefs.Save();
-        }
+            SaveToFile();
     }
 
-    // Load all data
-    public void LoadAllData(bool useFileStorage = false)
+    public static void LoadAllData(bool useFileStorage)
     {
         if (useFileStorage)
-        {
-            LoadDataFromFile(data);
-            foreach (var obj in listData)
-            {
-                LoadDataFromFile(obj);
-            }
-        }
-        else
-        {
-            LoadDataFromPrefs(data);
-            foreach (var obj in listData)
-            {
-                LoadDataFromPrefs(obj);
-            }
-        }
+            LoadFromFile();
     }
 
-    // Clear all saved data
-    public void ClearAllData()
+    private static void SaveToFile()
     {
-        PlayerPrefs.DeleteAll();
-        foreach (var obj in listData)
+        string json = JsonUtility.ToJson(new SerializationWrapper(gameData));
+        File.WriteAllText(filePath, json);
+    }
+
+    private static void LoadFromFile()
+    {
+        if (File.Exists(filePath))
         {
-            string path = GetFilePath(obj.name);
-            if (File.Exists(path))
-            {
-                File.Delete(path);
-            }
+            string json = File.ReadAllText(filePath);
+            gameData = JsonUtility.FromJson<SerializationWrapper>(json).ToDictionary();
         }
     }
 
-    // Save and load from GameObject
-    public void SaveDataFromGameObject(GameObject obj, bool useFileStorage = false)
+    [System.Serializable]
+    private class SerializationWrapper
     {
-        var data = obj.GetComponent<DataStorage>();
-        if (data == null) return;
-        data.SaveAllData(useFileStorage);
-    }
+        public List<string> keys;
+        public List<string> values;
 
-    public void LoadDataFromGameObject(GameObject obj, bool useFileStorage = false)
-    {
-        var data = obj.GetComponent<DataStorage>();
-        if (data == null) return;
-        data.LoadAllData(useFileStorage);
+        public SerializationWrapper(Dictionary<string, Dictionary<string, object>> dictionary)
+        {
+            keys = new List<string>(dictionary.Keys);
+            values = new List<string>();
+            foreach (var value in dictionary.Values)
+            {
+                values.Add(JsonUtility.ToJson(value));
+            }
+        }
+
+        public Dictionary<string, Dictionary<string, object>> ToDictionary()
+        {
+            var dict = new Dictionary<string, Dictionary<string, object>>();
+            for (int i = 0; i < keys.Count; i++)
+            {
+                dict[keys[i]] = JsonUtility.FromJson<Dictionary<string, object>>(values[i]);
+            }
+            return dict;
+        }
     }
 }

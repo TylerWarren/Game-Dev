@@ -3,7 +3,7 @@
     "m_SelectedProcess": {
         "deviceId": "RFCNB0BX4NF",
         "name": "com.DefaultCompany.com.unity.template.mobile2D",
-        "processId": 12613,
+        "processId": 16898,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -246,6 +246,12 @@
             "deviceId": "RFCNB0BX4NF",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
             "processId": 12613,
+            "exited": false
+        },
+        {
+            "deviceId": "RFCNB0BX4NF",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 16898,
             "exited": false
         }
     ],

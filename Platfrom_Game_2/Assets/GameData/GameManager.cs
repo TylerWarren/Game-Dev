@@ -1,52 +1,30 @@
-using System.Collections.Generic;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] private DataStorage dataStorage; // Assign in Inspector
-    [SerializeField] private PlayerData playerData;   // Your data to save
+    public DataStorage dataStorage; // Assign in Inspector
 
-    private void Start()
+    void Start()
     {
-        // Initialize storage
-        dataStorage.data = playerData;
-        if (dataStorage.listData == null)
-            dataStorage.listData = new List<ScriptableObject>();
-
-        // Load saved data at start
-        dataStorage.LoadAllData();
+        // Load data when the game starts
+        dataStorage.LoadAllData(useFileStorage: true); // Use JSON files for larger data
     }
 
-    private void SaveGame()
+    void OnApplicationQuit()
     {
-        // Update playerData with current values
-        playerData.score = 100;
-
-
-        // Save all data
-        dataStorage.SaveAllData();
+        // Save data when the game exits
+        dataStorage.SaveAllData(useFileStorage: true);
     }
 
-    private void LoadGame()
+    // Example: Save data manually (e.g., after collecting an item)
+    public void SaveGame()
     {
-        // Load all saved data
-        dataStorage.LoadAllData();
-        
-        // Use the loaded values
-        Debug.Log($"Score: {playerData.score}");
-
+        dataStorage.SaveAllData(useFileStorage: true);
     }
 
-    private void ResetGame()
+    // Example: Load data manually (e.g., at a checkpoint)
+    public void LoadGame()
     {
-        // Clear all saved data
-        dataStorage.ClearAllData();
-    }
-
-    // Example using GameObject methods
-    public GameObject dataHolder;
-    private void SaveFromObject()
-    {
-        dataStorage.SaveDataFromGameObject(dataHolder);
+        dataStorage.LoadAllData(useFileStorage: true);
     }
 }

@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c366ff6d48ca5eb498208c0ad64a9395, type: 3}
   m_Name: GameData
   m_EditorClassIdentifier: 
-  data: {fileID: 0}
-  listData: []
+  data: {fileID: 11400000, guid: a08b02aec77dc714394fc008b5838b8b, type: 2}
+  listData:
+  - {fileID: 11400000, guid: a08b02aec77dc714394fc008b5838b8b, type: 2}
