@@ -3,116 +3,157 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] private DataStorage dataStorage; // Assign in Inspector
-    [SerializeField] private PlayerData playerData;   // Player data with score
-    [SerializeField] private DoorData doorData;       // Door data
-    [SerializeField] private DoorController door;     // Reference to door controller
+    [SerializeField] private DataStorage dataStorage;
+    [SerializeField] private IntData scoreData; // Changed from PlayerData to IntData
+    [SerializeField] private DoorData doorData;
+    [SerializeField] private DoorController door;
 
     private void Start()
     {
-        // Initialize storage
-        if (dataStorage != null)
+        if (dataStorage == null)
         {
-            dataStorage.data = playerData;
-            if (dataStorage.listData == null)
-                dataStorage.listData = new List<ScriptableObject>();
-
-            // Add door data to storage
-            if (doorData != null && !dataStorage.listData.Contains(doorData))
-            {
-                dataStorage.listData.Add(doorData);
-            }
-
-            // Load saved data at start and verify
-            LoadGame();
-        }
-        else
-        {
-            Debug.LogError("DataStorage is not assigned in the Inspector!");
-        }
-    }
-
-    private void SaveGame()
-    {
-        if (dataStorage == null || playerData == null) 
-        {
-            Debug.LogError("Cannot save: DataStorage or PlayerData is null");
+            Debug.LogError("DataStorage is not assigned in the Inspector! Please assign it.");
             return;
         }
 
-        // Log current values before saving
-        Debug.Log($"Before Save - Score: {playerData.score}, Door Open: {(doorData != null ? doorData.isOpen.ToString() : "N/A")}, Door Pos: {(doorData != null ? doorData.position.ToString() : "N/A")}");
+        if (scoreData == null)
+        {
+            Debug.LogError("ScoreData (IntData) is not assigned in the Inspector! Please assign it.");
+            return;
+        }
 
-        // Update playerData with current values
-        playerData.score = 100; // Replace with your actual score updating logic
+        dataStorage.data = scoreData; // Set IntData as the primary data
+        if (dataStorage.listData == null)
+        {
+            dataStorage.listData = new List<ScriptableObject>();
+        }
+
+        if (doorData != null && !dataStorage.listData.Contains(doorData))
+        {
+            dataStorage.listData.Add(doorData);
+        }
+        else if (doorData == null)
+        {
+            Debug.LogWarning("DoorData is not assigned in the Inspector. Door saving will be skipped.");
+        }
+
+        // Load saved data after OnEnable has reset the score to 0
+        LoadGame();
+    }
+
+    public void SaveGame()
+    {
+        if (!ValidateComponents("Save")) return;
+
+        Debug.Log($"Before Save - Score: {scoreData.value}, Door Open: {(doorData != null ? doorData.isOpen.ToString() : "N/A")}, Door Pos: {(doorData != null ? doorData.position.ToString() : "N/A")}");
         
-        // Save all data
         dataStorage.SaveAllData();
 
-        // Log confirmation after saving
-        Debug.Log($"Data Saved Successfully - Score: {playerData.score}, Door Open: {(doorData != null ? doorData.isOpen.ToString() : "N/A")}, Door Pos: {(doorData != null ? doorData.position.ToString() : "N/A")}");
+        Debug.Log($"Data Saved Successfully - Score: {scoreData.value}, Door Open: {(doorData != null ? doorData.isOpen.ToString() : "N/A")}, Door Pos: {(doorData != null ? doorData.position.ToString() : "N/A")}");
     }
 
-    private void LoadGame()
+    public void LoadGame()
     {
-        if (dataStorage == null || playerData == null) 
-        {
-            Debug.LogError("Cannot load: DataStorage or PlayerData is null");
-            return;
-        }
+        if (!ValidateComponents("Load")) return;
 
-        // Log values before loading
-        Debug.Log($"Before Load - Score: {playerData.score}, Door Open: {(doorData != null ? doorData.isOpen.ToString() : "N/A")}, Door Pos: {(doorData != null ? doorData.position.ToString() : "N/A")}");
-
-        // Load all saved data
+        Debug.Log($"Before Load - Score: {scoreData.value}, Door Open: {(doorData != null ? doorData.isOpen.ToString() : "N/A")}, Door Pos: {(doorData != null ? doorData.position.ToString() : "N/A")}");
+        
         dataStorage.LoadAllData();
-        
-        // Apply loaded door state
-        if (door != null && doorData != null)
-        {
-            door.transform.position = doorData.position;
-            if (doorData.isOpen) door.OpenDoor();
-            else door.CloseDoor();
-        }
+        ResetDoorState();
 
-        // Log values after loading to confirm data was retrieved
-        Debug.Log($"Data Loaded Successfully - Score: {playerData.score}, Door Open: {(doorData != null ? doorData.isOpen.ToString() : "N/A")}, Door Pos: {(doorData != null ? doorData.position.ToString() : "N/A")}");
+        Debug.Log($"Data Loaded Successfully - Score: {scoreData.value}, Door Open: {(doorData != null ? doorData.isOpen.ToString() : "N/A")}, Door Pos: {(doorData != null ? doorData.position.ToString() : "N/A")}");
     }
 
-    private void ResetGame()
+    public void ResetGame()
     {
-        if (dataStorage == null || playerData == null) 
-        {
-            Debug.LogError("Cannot reset: DataStorage or PlayerData is null");
-            return;
-        }
+        if (!ValidateComponents("Reset")) return;
 
-        // Log values before reset
-        Debug.Log($"Before Reset - Score: {playerData.score}, Door Open: {(doorData != null ? doorData.isOpen.ToString() : "N/A")}, Door Pos: {(doorData != null ? doorData.position.ToString() : "N/A")}");
-
-        // Clear all saved data
-        dataStorage.ClearAllData();
+        Debug.Log($"Before Reset - Score: {scoreData.value}, Door Open: {(doorData != null ? doorData.isOpen.ToString() : "N/A")}, Door Pos: {(doorData != null ? doorData.position.ToString() : "N/A")}");
         
-        // Reset data objects to default values
-        playerData.Reset();
+        scoreData.SetValue(0); // Reset score using IntData's method
         if (doorData != null) doorData.Reset();
-        
-        // Reset door position
+        if (door != null) door.CloseDoor();
+
+        Debug.Log($"Game Reset (In-Memory) - Score: {scoreData.value}, Door Open: {(doorData != null ? doorData.isOpen.ToString() : "N/A")}, Door Pos: {(doorData != null ? doorData.position.ToString() : "N/A")}");
+    }
+
+    private void ResetDoorState()
+    {
         if (door != null)
         {
             door.CloseDoor();
+            if (doorData != null)
+            {
+                doorData.isOpen = false;
+                doorData.position = door.transform.position;
+            }
+            Debug.Log("Door state reset to closed");
         }
-        
-        Debug.Log($"Game Reset - Score: {playerData.score}, Door Open: {(doorData != null ? doorData.isOpen.ToString() : "N/A")}, Door Pos: {(doorData != null ? doorData.position.ToString() : "N/A")}");
+        else if (doorData != null)
+        {
+            doorData.isOpen = false;
+            doorData.position = Vector3.zero;
+            Debug.Log("DoorData reset to closed (no DoorController assigned)");
+        }
     }
-    
-    // Method to modify score
+
+    private bool ValidateComponents(string operation)
+    {
+        if (dataStorage == null)
+        {
+            Debug.LogError($"Cannot {operation}: DataStorage is null");
+            return false;
+        }
+        if (scoreData == null)
+        {
+            Debug.LogError($"Cannot {operation}: ScoreData (IntData) is null");
+            return false;
+        }
+        return true;
+    }
+
     public void AddScore(int points)
     {
-        if (playerData != null)
+        if (scoreData != null)
         {
-            playerData.score += points;
-            Debug.Log($"Score Updated - New Score: {playerData.score}");
+            scoreData.UpdateValue(points); // Use IntData's UpdateValue method
+            Debug.Log($"Score Updated - New Score: {scoreData.value}");
+        }
+        else
+        {
+            Debug.LogError("Cannot update score: ScoreData (IntData) is null");
+        }
+    }
+
+    // Test methods for manual invocation
+    public void TestAddScore()
+    {
+        AddScore(10);
+    }
+
+    public void TestOpenDoor()
+    {
+        if (door != null)
+        {
+            door.OpenDoor();
+            Debug.Log("Test: Door opened");
+        }
+        else
+        {
+            Debug.LogWarning("Cannot open door: DoorController is not assigned");
+        }
+    }
+
+    public void TestCloseDoor()
+    {
+        if (door != null)
+        {
+            door.CloseDoor();
+            Debug.Log("Test: Door closed");
+        }
+        else
+        {
+            Debug.LogWarning("Cannot close door: DoorController is not assigned");
         }
     }
 }

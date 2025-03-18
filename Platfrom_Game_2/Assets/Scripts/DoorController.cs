@@ -52,4 +52,9 @@ public class DoorController : MonoBehaviour
     {
         isOpening = false;
     }
+
+    public void ResetDoor()
+    {
+        throw new System.NotImplementedException();
+    }
 }

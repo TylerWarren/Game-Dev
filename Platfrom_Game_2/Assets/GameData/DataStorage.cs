@@ -10,7 +10,6 @@ public class DataStorage : ScriptableObject
 
     private string GetFilePath(string fileName) => Application.persistentDataPath + $"/{fileName}.json";
 
-    // Save to PlayerPrefs (for small data)
     private void SaveDataToPrefs<T>(T obj) where T : Object
     {
         if (obj == null) return;
@@ -27,7 +26,6 @@ public class DataStorage : ScriptableObject
         }
     }
 
-    // Save to JSON File (for larger data)
     private void SaveDataToFile<T>(T obj) where T : Object
     {
         if (obj == null) return;
@@ -47,64 +45,39 @@ public class DataStorage : ScriptableObject
         }
     }
 
-    // Save all data
     public void SaveAllData(bool useFileStorage = false)
     {
         if (useFileStorage)
         {
             SaveDataToFile(data);
-            foreach (var obj in listData)
-            {
-                SaveDataToFile(obj);
-            }
+            foreach (var obj in listData) SaveDataToFile(obj);
         }
         else
         {
             SaveDataToPrefs(data);
-            foreach (var obj in listData)
-            {
-                SaveDataToPrefs(obj);
-            }
+            foreach (var obj in listData) SaveDataToPrefs(obj);
             PlayerPrefs.Save();
         }
+        Debug.Log($"Saved data: {JsonUtility.ToJson(data)}"); // Verify saved data
     }
 
-    // Load all data
     public void LoadAllData(bool useFileStorage = false)
     {
         if (useFileStorage)
         {
             LoadDataFromFile(data);
-            foreach (var obj in listData)
-            {
-                LoadDataFromFile(obj);
-            }
+            foreach (var obj in listData) LoadDataFromFile(obj);
         }
         else
         {
             LoadDataFromPrefs(data);
-            foreach (var obj in listData)
-            {
-                LoadDataFromPrefs(obj);
-            }
+            foreach (var obj in listData) LoadDataFromPrefs(obj);
         }
     }
 
-    // Clear all saved data
-    public void ClearAllData()
-    {
-        PlayerPrefs.DeleteAll();
-        foreach (var obj in listData)
-        {
-            string path = GetFilePath(obj.name);
-            if (File.Exists(path))
-            {
-                File.Delete(path);
-            }
-        }
-    }
+    // Removed ClearAllData() function
+    // public void ClearAllData() { ... } // This is now gone
 
-    // Save and load from GameObject
     public void SaveDataFromGameObject(GameObject obj, bool useFileStorage = false)
     {
         var data = obj.GetComponent<DataStorage>();
