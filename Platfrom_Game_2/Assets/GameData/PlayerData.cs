@@ -5,6 +5,11 @@ using UnityEngine;
 public class PlayerData : ScriptableObject
 {
     public Vector3 playerPosition;
-    public int health = 100;
+    public int score;
     public List<string> collectedItems = new List<string>();
+
+    public void Reset()
+    {
+        throw new System.NotImplementedException();
+    }
 }
