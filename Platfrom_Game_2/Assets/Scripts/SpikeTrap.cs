@@ -1,55 +1,69 @@
 using UnityEngine;
-using System.Collections;
+using GameActions;
 
 public class SpikeTrap : MonoBehaviour
 {
-    [SerializeField] private float extendHeight = 1.0f;     // How far the spikes extend upward
-    [SerializeField] private float extendTime = 1.0f;       // Time to fully extend
-    [SerializeField] private float holdTime = 0.5f;         // Time to hold at extended position
-    [SerializeField] private float retractTime = 1.0f;      // Time to fully retract
-    [SerializeField] private float moveSpeed = 2.0f;        // Speed of the extension/retraction motion
+    [SerializeField] private GameAction triggerAction; // Assign this in Inspector
+    [SerializeField] private float raiseHeight = 2f;   // How high the spikes rise
+    [SerializeField] private float raiseSpeed = 5f;    // Speed of rising animation
+    [SerializeField] private float detectionRange = 3f;// Distance to trigger trap
+    
+    private Vector3 initialPosition;
+    private Vector3 targetPosition;
+    private bool isTriggered = false;
+    private GameObject player;
 
-    private Vector3 retractedPosition;                      // Starting (down) position
-    private Vector3 extendedPosition;                       // Target (up) position
-
-    void Start()
+    private void Start()
     {
-        // Store the initial position as the retracted state
-        retractedPosition = transform.position;
-        extendedPosition = retractedPosition + Vector3.up * extendHeight;
-
-        // Start the spike trap cycle when the game begins
-        StartCoroutine(SpikeTrapCycle());
-    }
-
-    // Coroutine to handle the trap's repeating cycle
-    IEnumerator SpikeTrapCycle()
-    {
-        while (true) // Loop forever
+        initialPosition = transform.position;
+        targetPosition = initialPosition + Vector3.up * raiseHeight;
+        
+        // Set up the action listener
+        if (triggerAction != null)
         {
-            // Extend the spikes
-            yield return StartCoroutine(MoveToPosition(extendedPosition, extendTime));
-            yield return new WaitForSeconds(holdTime); // Hold at extended position
-
-            // Retract the spikes
-            yield return StartCoroutine(MoveToPosition(retractedPosition, retractTime));
-            yield return new WaitForSeconds(retractTime); // Stay retracted for a bit
+            triggerAction.Raise += OnPlayerDetected;
         }
     }
 
-    // Coroutine to smoothly move the trap between positions over a specific duration
-    IEnumerator MoveToPosition(Vector3 targetPosition, float duration)
+    private void Update()
     {
-        Vector3 startPosition = transform.position;
-        float elapsedTime = 0f;
-
-        while (elapsedTime < duration)
+        if (isTriggered && player != null)
         {
-            elapsedTime += Time.deltaTime;
-            float t = Mathf.Clamp01(elapsedTime / duration); // Normalized time (0 to 1)
-            transform.position = Vector3.Lerp(startPosition, targetPosition, t);
-            yield return null; // Wait for the next frame
+            // Move spikes up when triggered
+            transform.position = Vector3.Lerp(transform.position, targetPosition, Time.deltaTime * raiseSpeed);
+            
+            // Reset if player moves out of range
+            float distanceToPlayer = Vector3.Distance(transform.position, player.transform.position);
+            if (distanceToPlayer > detectionRange)
+            {
+                isTriggered = false;
+            }
         }
-        transform.position = targetPosition; // Snap to exact position
+        else
+        {
+            // Move spikes back down when not triggered
+            transform.position = Vector3.Lerp(transform.position, initialPosition, Time.deltaTime * raiseSpeed);
+        }
+    }
+
+    private void OnPlayerDetected(object obj)
+    {
+        if (obj is GameObject detectedObject && detectedObject.CompareTag("Player"))
+        {
+            player = detectedObject;
+            float distanceToPlayer = Vector3.Distance(transform.position, player.transform.position);
+            if (distanceToPlayer <= detectionRange)
+            {
+                isTriggered = true;
+            }
+        }
+    }
+
+    private void OnDestroy()
+    {
+        if (triggerAction != null)
+        {
+            triggerAction.Raise -= OnPlayerDetected;
+        }
     }
 }
