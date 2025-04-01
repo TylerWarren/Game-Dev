@@ -25,7 +25,7 @@ public class SpikeTrap : MonoBehaviour
         }
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
         if (isTriggered && player != null)
         {
