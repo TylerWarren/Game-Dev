@@ -13,7 +13,7 @@ public class PlatformController : MonoBehaviour
     private bool isMoving = true;
     private int direction = 1; // 1 for forward, -1 for reverse
 
-    private void Update()
+    private void FixedUpdate()
     {
         if (isMoving && waypoints.Length > 1)
         {
