@@ -5,9 +5,11 @@ MonoImporter:
   serializedVersion: 2
   defaultReferences:
   - dataStorage: {fileID: 11400000, guid: 6c6ce6470849f7149b4f40e2e5bf8897, type: 2}
-  - scoreData: {fileID: 11400000, guid: a08b02aec77dc714394fc008b5838b8b, type: 2}
+  - scoreData: {instanceID: 0}
   - doorData: {fileID: 11400000, guid: 3eb682fe982bc6744864eb3d714330f3, type: 2}
   - door: {instanceID: 0}
+  - checkpointData: {fileID: 11400000, guid: 65ddd2785adc44b4eacd9c1f077721c2, type: 2}
+  - player: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
