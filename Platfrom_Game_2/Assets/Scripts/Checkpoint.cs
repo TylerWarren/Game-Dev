@@ -1,30 +1,29 @@
-using UnityEngine; 
+using UnityEngine;
 
 public class Checkpoint : MonoBehaviour
 {
-    private GameManager gameManager; // Renamed to follow naming convention
+    private GameManager gameManager;
 
-    // Unity calls this method
     private void Start()
     {
-        gameManager = FindObjectOfType<GameManager>(); // Cache GameManager
+        gameManager = FindObjectOfType<GameManager>();
     }
 
-    // Unity calls this method
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            CharacterSideScroller player = other.GetComponent<CharacterSideScroller>();
+            CharacterRespawn player = other.GetComponent<CharacterRespawn>();
             if (player != null)
             {
                 player.SetCheckpoint(transform.position);
-                Debug.Log($"Checkpoint set at position: {transform.position}"); // Log the checkpoint position
+                Debug.Log($"Checkpoint set at position: {transform.position}");
+
                 if (gameManager != null)
                 {
-                    gameManager.SaveGame(); // Save the game state when checkpoint is reached
+                    gameManager.SaveGame();
                 }
             }
         }
     }
-} 
+}

@@ -1,10 +1,12 @@
 using UnityEngine;
+
+[CreateAssetMenu(fileName = "CheckpointData", menuName = "ScriptableObjects/CheckpointData")]
 public class CheckpointData : ScriptableObject
 {
     [SerializeField]
     private Vector3 checkpointPosition;
     [SerializeField]
-    private bool hasCheckpointBeenSet = false;
+    private bool hasCheckpointBeenSet;
 
     public Vector3 CheckpointPosition
     {
