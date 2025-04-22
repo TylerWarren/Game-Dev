@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
     {
         if (!ValidateComponents("Start")) return;
 
-        dataStorage.data = scoreData;
+        // Add doorData and checkpointData to listData for saving/loading
         if (dataStorage.listData == null)
         {
             dataStorage.listData = new List<ScriptableObject>();
@@ -44,14 +44,19 @@ public class GameManager : MonoBehaviour
         }
 
         dataStorage.SaveAllData();
-        Debug.Log($"[Save] Score: {scoreData.value}, Door Open: {doorData?.isOpen}, Checkpoint: {checkpointData?.CheckpointPosition}");
+        Debug.Log($"[Save] Door Open: {doorData?.isOpen}, Checkpoint: {checkpointData?.CheckpointPosition}");
     }
 
     public void LoadGame()
     {
         if (!ValidateComponents("Load")) return;
 
+        // Load all data, including the score
         dataStorage.LoadAllData();
+
+        // Reset the score explicitly after loading to ensure it's 0
+        scoreData.SetValue(0);  // This will set the score to 0 every time the game is loaded
+
         ResetDoorState();
 
         if (player != null)
@@ -68,7 +73,7 @@ public class GameManager : MonoBehaviour
                 Debug.Log("No valid checkpoint data; respawning at initial position");
             }
         }
-    }
+    } 
 
     private void OnApplicationQuit()
     {
@@ -79,11 +84,20 @@ public class GameManager : MonoBehaviour
     {
         if (!ValidateComponents("Reset")) return;
 
+        // 1. Clear the saved score in PlayerPrefs
+        dataStorage.ClearSavedDataFor(scoreData);
+
+        // 2. Reset the score value in-memory
         scoreData.SetValue(0);
+
+        // 3. Save all data again (important to ensure other game states are preserved)
         dataStorage.SaveAllData();
+
+        // Reset the door and checkpoint data
         if (doorData != null) doorData.Reset();
         if (door != null) door.CloseDoor();
 
+        // Reset player position to the last checkpoint or initial position
         if (checkpointData != null && player != null)
         {
             ResetPlayerPosition();
@@ -93,7 +107,7 @@ public class GameManager : MonoBehaviour
             Debug.LogWarning("CheckpointData or Player is null; using initial position");
             if (player != null) player.Respawn();
         }
-    }
+    } 
 
     private void ResetPlayerPosition()
     {
@@ -149,7 +163,6 @@ public class GameManager : MonoBehaviour
         }
         return true;
     }
-    
 
     public void AddScore(int points)
     {

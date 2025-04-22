@@ -14,9 +14,5 @@ public class PlayerData : ScriptableObject
     {
         score = newScore;
     }
-
-    public void AddScore(int amount)
-    {
-        score += amount;
-    }
+    
 }

@@ -12,59 +12,48 @@ public class CharacterMovement : MonoBehaviour
     private Vector3 velocity;
     private int jumpsRemaining;
     private bool moveLeft, moveRight, isJumping;
+    private float jumpVelocity;
 
     public Vector3 Velocity => velocity;
     public bool IsGrounded => controller.isGrounded;
 
     private void Start()
     {
+        Application.targetFrameRate = 60;
         controller = GetComponent<CharacterController>();
         jumpsRemaining = maxJumps;
+        jumpVelocity = Mathf.Sqrt(jumpForce * -2f * gravity);
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         if (!controller.enabled) return;
 
-        HandleMovement();
-        ApplyGravity();
-        Jump();
-        controller.Move(velocity * Time.deltaTime);
-    }
+        float deltaTime = Time.fixedDeltaTime;
 
-    private void HandleMovement()
-    {
-        if (moveLeft)
-            velocity.x = -moveSpeed;
-        else if (moveRight)
-            velocity.x = moveSpeed;
-        else
-            velocity.x = 0;
-
+        // Movement
+        velocity.x = moveLeft ? -moveSpeed : moveRight ? moveSpeed : 0;
         velocity.x = Mathf.Clamp(velocity.x, -moveSpeed, moveSpeed);
-    }
 
-    private void ApplyGravity()
-    {
+        // Gravity
         if (!controller.isGrounded)
-            velocity.y += gravity * Time.deltaTime;
+            velocity.y += gravity * deltaTime;
         else
         {
             velocity.y = -0.5f;
             jumpsRemaining = maxJumps;
         }
-
         velocity.y = Mathf.Clamp(velocity.y, -50f, 50f);
-    }
 
-    private void Jump()
-    {
+        // Jump
         if (isJumping && jumpsRemaining > 0)
         {
-            velocity.y = Mathf.Sqrt(jumpForce * -2f * gravity);
+            velocity.y = jumpVelocity;
             jumpsRemaining--;
             isJumping = false;
         }
+
+        controller.Move(velocity * deltaTime);
     }
 
     public void OnLeftButtonDown() => moveLeft = true;

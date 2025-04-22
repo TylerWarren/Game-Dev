@@ -4,8 +4,8 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "DataStorage", menuName = "Utilities/Data Storage Object")]
 public class DataStorage : ScriptableObject
 {
-    public ScriptableObject data; // Primary data (e.g., score)
-    public List<ScriptableObject> listData; // Additional data (e.g., door, checkpoint)
+    public ScriptableObject data; // Can be null now
+    public List<ScriptableObject> listData;
 
     private void SaveData<T>(T obj) where T : UnityEngine.Object
     {
@@ -53,10 +53,6 @@ public class DataStorage : ScriptableObject
         {
             SaveData(data);
         }
-        else
-        {
-            Debug.LogWarning("Primary data is null; skipping save");
-        }
 
         if (listData != null)
         {
@@ -65,12 +61,8 @@ public class DataStorage : ScriptableObject
                 SaveData(obj);
             }
         }
-        else
-        {
-            Debug.LogWarning("listData is null; skipping save");
-        }
 
-        PlayerPrefs.Save(); // Ensure data is written to disk
+        PlayerPrefs.Save();
     }
 
     public void LoadAllData()
@@ -78,10 +70,6 @@ public class DataStorage : ScriptableObject
         if (data != null)
         {
             LoadData(data);
-        }
-        else
-        {
-            Debug.LogWarning("Primary data is null; skipping load");
         }
 
         if (listData != null)
@@ -91,10 +79,6 @@ public class DataStorage : ScriptableObject
                 LoadData(obj);
             }
         }
-        else
-        {
-            Debug.LogWarning("listData is null; skipping load");
-        }
     }
 
     public void ClearAllData()
@@ -103,25 +87,18 @@ public class DataStorage : ScriptableObject
         Debug.Log("All PlayerPrefs data cleared");
     }
 
-    // Helper to generate unique keys for PlayerPrefs
+    public void ClearSavedDataFor(ScriptableObject obj)
+    {
+        string key = GetUniqueKey(obj);
+        if (PlayerPrefs.HasKey(key))
+        {
+            PlayerPrefs.DeleteKey(key);
+            Debug.Log($"Cleared saved data for {obj.name}");
+        }
+    }
+
     private string GetUniqueKey(UnityEngine.Object obj)
     {
-        // Use a combination of object name and type to avoid conflicts
         return $"{obj.GetType().Name}_{obj.name}";
-    }
-
-    // Save/Load from GameObject (unchanged but included for completeness)
-    public void SaveDataFromGameObject(GameObject obj)
-    {
-        var storage = obj.GetComponent<DataStorage>();
-        if (storage == null) return;
-        storage.SaveAllData();
-    }
-
-    public void LoadDataFromGameObject(GameObject obj)
-    {
-        var storage = obj.GetComponent<DataStorage>();
-        if (storage == null) return;
-        storage.LoadAllData();
     }
 }

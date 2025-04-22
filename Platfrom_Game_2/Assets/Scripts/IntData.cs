@@ -14,4 +14,9 @@ public class IntData : ScriptableObject
     {
         value += amount;
     }
+    
+    private void OnEnable()
+    {
+        value = 0;
+    }
 }   
